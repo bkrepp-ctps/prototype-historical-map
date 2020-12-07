@@ -1,0 +1,336 @@
+<svg id="TownNames" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1019.21 924.84">
+  <defs>
+    <style>
+      .cls-1, .cls-17, .cls-19, .cls-21, .cls-27, .cls-28, .cls-29, .cls-3, .cls-32, .cls-35, .cls-5, .cls-8 {
+        font-size: 12px;
+        font-family: ArialNarrow-Bold, Arial Narrow;
+        font-weight: 700;
+      }
+
+      .cls-1, .cls-27, .cls-29, .cls-5 {
+        fill: none;
+      }
+
+      .cls-1, .cls-17, .cls-27, .cls-8 {
+        stroke: #e6e7e8;
+      }
+
+      .cls-1, .cls-17, .cls-27, .cls-29, .cls-5, .cls-8 {
+        stroke-linejoin: round;
+        stroke-width: 1.5px;
+      }
+
+      .cls-2 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-17, .cls-19, .cls-21, .cls-28, .cls-3, .cls-32, .cls-8 {
+        fill: #5869be;
+      }
+
+      .cls-4 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-29, .cls-5 {
+        stroke: #f0e4cb;
+      }
+
+      .cls-6 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-7 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-21, .cls-9 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-10 {
+        letter-spacing: 0em;
+      }
+
+      .cls-11 {
+        letter-spacing: 0.02em;
+      }
+
+      .cls-12 {
+        letter-spacing: 0em;
+      }
+
+      .cls-13 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-14 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-15 {
+        letter-spacing: -0.11em;
+      }
+
+      .cls-16 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-17, .cls-19 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-18 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-20 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-22 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-23 {
+        letter-spacing: -0.09em;
+      }
+
+      .cls-24 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-25 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-26 {
+        letter-spacing: -0.04em;
+      }
+
+      .cls-27, .cls-28 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-29, .cls-32 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-30 {
+        letter-spacing: -0.07em;
+      }
+
+      .cls-31 {
+        letter-spacing: -0.05em;
+      }
+
+      .cls-33 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-34 {
+        letter-spacing: -0.02em;
+      }
+
+      .cls-35 {
+        fill: #231f20;
+      }
+
+      .cls-36 {
+        letter-spacing: -0.01em;
+      }
+
+      .cls-37 {
+        letter-spacing: -0.02em;
+      }
+    </style>
+  </defs>
+  <text class="cls-1" transform="matrix(1, 0, 0, 1, 365.8, 856.12)">Foxbo<tspan class="cls-2" x="29.52" y="0">r</tspan><tspan x="33.13" y="0">ough</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 365.8, 856.12)">Foxbo<tspan class="cls-2" x="29.52" y="0">r</tspan><tspan x="33.13" y="0">ough</tspan></text>
+  <text class="cls-3" transform="translate(257.13 162.58)">Chelmsfo<tspan class="cls-4" x="44.83" y="0">r</tspan><tspan x="48.44" y="0">d</tspan></text>
+  <text class="cls-3" transform="translate(44.73 82.49)">Peppe<tspan class="cls-4" x="29.53" y="0">r</tspan><tspan x="33.14" y="0">ell</tspan></text>
+  <text class="cls-3" transform="translate(2.17 308.02)">Lancaster</text>
+  <text class="cls-3" transform="translate(41.46 373.76)">Bolton</text>
+  <text class="cls-3" transform="translate(36.56 452.34)">Berlin</text>
+  <text class="cls-3" transform="translate(144.26 383.98)">Stow</text>
+  <text class="cls-3" transform="translate(121.17 446.57)">Hudson</text>
+  <text class="cls-3" transform="translate(121.96 474.57)">Marlbo<tspan class="cls-4" x="32.26" y="0">r</tspan><tspan x="35.87" y="0">ough</tspan></text>
+  <text class="cls-3" transform="translate(148.91 648.36)">Hopkinton</text>
+  <text class="cls-3" transform="translate(57.14 698.81)">Upton</text>
+  <text class="cls-3" transform="translate(197.06 616.68)">Ashland</text>
+  <text class="cls-5" transform="translate(2.17 682.98)">Grafton</text>
+  <text class="cls-5" transform="translate(121.79 757.97) rotate(48.81)">Hopedale</text>
+  <text class="cls-3" transform="translate(2.17 682.98)">Grafton</text>
+  <text class="cls-1" transform="translate(202.33 434.67)">Sudbu<tspan class="cls-6" x="30.61" y="0">r</tspan><tspan x="34.65" y="0">y</tspan></text>
+  <text class="cls-1" transform="translate(187.85 516.78)">Framingham</text>
+  <text class="cls-1" transform="translate(265.12 631.22)">Sherbo<tspan class="cls-6" x="33.9" y="0">r</tspan><tspan x="37.94" y="0">n</tspan></text>
+  <text class="cls-1" transform="translate(108.66 541.97)">Southbo<tspan class="cls-4" x="39.9" y="0">r</tspan><tspan x="43.51" y="0">ough</tspan></text>
+  <text class="cls-5" transform="translate(5.1 528.37)">No<tspan class="cls-6" x="13.11" y="0">r</tspan><tspan x="17.16" y="0">thbo</tspan><tspan class="cls-4" x="38.47" y="0">r</tspan><tspan x="42.08" y="0">ough</tspan></text>
+  <text class="cls-3" transform="translate(202.33 434.67)">Sudbu<tspan class="cls-6" x="30.61" y="0">r</tspan><tspan x="34.65" y="0">y</tspan></text>
+  <text class="cls-3" transform="translate(187.85 516.78)">Framingham</text>
+  <text class="cls-3" transform="translate(196.29 403.99)">Mayna<tspan class="cls-4" x="30.63" y="0">r</tspan><tspan x="34.24" y="0">d</tspan></text>
+  <text class="cls-3" transform="translate(6.81 887.88)">Uxbridge</text>
+  <text class="cls-3" transform="translate(102.39 881.13) rotate(-90)">Millville</text>
+  <text class="cls-3" transform="translate(113.53 870.69)">Blackstone</text>
+  <text class="cls-3" transform="translate(107.36 821.23)">Mendon</text>
+  <text class="cls-3" transform="translate(189.02 862.53) rotate(-86.64)">Bellingham</text>
+  <text class="cls-5" transform="translate(12 772.72)">No<tspan class="cls-6" x="13.11" y="0">r</tspan><tspan x="17.16" y="0">thbridge</tspan></text>
+  <text class="cls-3" transform="translate(12 772.72)">No<tspan class="cls-6" x="13.11" y="0">r</tspan><tspan x="17.16" y="0">thbridge</tspan></text>
+  <text class="cls-3" transform="translate(121.79 757.97) rotate(48.81)">Hopedale</text>
+  <text class="cls-3" transform="translate(116.35 716.86)">Milfo<tspan class="cls-7" x="22.96" y="0">r</tspan><tspan x="26.57" y="0">d</tspan></text>
+  <text class="cls-3" transform="translate(185.08 679.96)">Holliston</text>
+  <text class="cls-3" transform="translate(211.78 723.69)">Medway</text>
+  <text class="cls-3" transform="translate(238.13 790.42)">Franklin</text>
+  <text class="cls-3" transform="translate(248.78 883.36)"><tspan class="cls-4">Wr</tspan><tspan x="12.68" y="0">entham</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 284.12, 910.72)">Plainville</text>
+  <text class="cls-3" transform="translate(508.48 876.27)">Easton</text>
+  <text class="cls-3" transform="translate(730.77 843.16)">Hanson</text>
+  <text class="cls-3" transform="translate(793.78 825.14)">Pemb<tspan class="cls-4" x="26.79" y="0">r</tspan><tspan x="30.41" y="0">oke</tspan></text>
+  <text class="cls-8" transform="translate(583.6 817.63)">B<tspan class="cls-9" x="7.1" y="0">r</tspan><tspan class="cls-10" x="10.71" y="0">ockton</tspan></text>
+  <text class="cls-8" transform="matrix(1, 0, 0, 1, 506.17, 434.58)">Some<tspan class="cls-11" x="26.8" y="0">r</tspan><tspan class="cls-12" x="30.84" y="0">ville</tspan></text>
+  <text class="cls-8" transform="matrix(1, 0, 0, 1, 485.87, 448.99)">Cambridge</text>
+  <text class="cls-8" transform="translate(446.55 425.79)">Belmont</text>
+  <text class="cls-8" transform="translate(438.09 236.26)"><tspan class="cls-13">W</tspan><tspan x="9.21" y="0">ilmington</tspan></text>
+  <text class="cls-8" transform="matrix(1, 0, 0, 1, 459.82, 365.44)"><tspan class="cls-14">W</tspan><tspan x="9.21" y="0">inchester</tspan></text>
+  <text class="cls-8" transform="translate(672.66 121.43)"><tspan class="cls-15">T</tspan><tspan x="4.68" y="0">opsfield</tspan></text>
+  <text class="cls-8" transform="translate(545.49 292.14)"><tspan class="cls-16">W</tspan><tspan x="8.84" y="0">akefield</tspan></text>
+  <text class="cls-8" transform="translate(600.81 425.79)">Chelsea</text>
+  <text class="cls-3" transform="translate(583.6 817.63)">B<tspan class="cls-9" x="7.1" y="0">r</tspan><tspan class="cls-10" x="10.71" y="0">ockton</tspan></text>
+  <text class="cls-5" transform="matrix(1, 0, 0, 1, 517.07, 784.41)">Stoughton</text>
+  <text class="cls-5" transform="translate(608.43 886.79)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">est</tspan><tspan x="-16.79" y="12">Bridgewater</tspan></text>
+  <text class="cls-5" transform="translate(677.92 873.26)">East<tspan x="-18.04" y="12">Bridgewater</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 517.07, 784.41)">Stoughton</text>
+  <text class="cls-3" transform="translate(457.92 794.07)">Sha<tspan class="cls-4" x="18.05" y="0">r</tspan><tspan x="21.66" y="0">on</tspan></text>
+  <text class="cls-3" transform="translate(381.13 711.12)"><tspan class="cls-16">W</tspan><tspan x="8.84" y="0">alpole</tspan></text>
+  <text class="cls-3" transform="translate(318.19 792.76)">No<tspan class="cls-6" x="13.11" y="0">r</tspan><tspan x="17.16" y="0">folk</tspan></text>
+  <text class="cls-3" transform="translate(326.42 668.42)">Medfield</text>
+  <text class="cls-3" transform="translate(265.12 631.22)">Sherbo<tspan class="cls-6" x="33.9" y="0">r</tspan><tspan x="37.94" y="0">n</tspan></text>
+  <text class="cls-3" transform="translate(278.77 700.07)">Millis</text>
+  <text class="cls-3" transform="matrix(0.72, -0.69, 0.69, 0.72, 372.9, 587.78)">Needham</text>
+  <text class="cls-3" transform="translate(721.06 662.06)">Hingham</text>
+  <text class="cls-17" transform="translate(683.62 714.76) rotate(-83.72)">W<tspan class="cls-18" x="8.83" y="0">eymouth</tspan></text>
+  <text class="cls-19" transform="translate(683.62 714.76) rotate(-83.72)">W<tspan class="cls-18" x="8.83" y="0">eymouth</tspan></text>
+  <text class="cls-8" transform="translate(600.61 677.04)">Braint<tspan class="cls-7" x="28.42" y="0">r</tspan><tspan x="32.03" y="0">ee</tspan></text>
+  <text class="cls-3" transform="translate(600.61 677.04)">Braint<tspan class="cls-7" x="28.42" y="0">r</tspan><tspan x="32.03" y="0">ee</tspan></text>
+  <text class="cls-3" transform="translate(301.3 579.29)">Natick</text>
+  <text class="cls-3" transform="translate(368.78 634.39)">Dover</text>
+  <text class="cls-3" transform="translate(541.07 618.71)">Milton</text>
+  <text class="cls-1" transform="translate(623.64 598.23)">Quincy</text>
+  <text class="cls-1" transform="matrix(1, 0, 0, 1, 453.74, 618.58)">Dedham</text>
+  <text class="cls-1" transform="matrix(1, 0, 0, 1, 564, 697.08)">Randolph</text>
+  <text class="cls-3" transform="translate(623.64 598.23)">Quincy</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 453.74, 618.58)">Dedham</text>
+  <text class="cls-3" transform="translate(740.53 543)">Hull</text>
+  <text class="cls-3" transform="translate(659.33 449.72)"><tspan class="cls-13">W</tspan><tspan x="9.21" y="0">inth</tspan><tspan class="cls-4" x="27.24" y="0">r</tspan><tspan x="30.85" y="0">op</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 506.17, 434.58)">Some<tspan class="cls-11" x="26.8" y="0">r</tspan><tspan class="cls-12" x="30.84" y="0">ville</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 485.87, 448.99)">Cambridge</text>
+  <text class="cls-3" transform="translate(446.55 425.79)">Belmont</text>
+  <text class="cls-1" transform="translate(506.09 389.06)">Medford</text>
+  <text class="cls-3" transform="translate(506.09 389.06)">Medford</text>
+  <text class="cls-3" transform="translate(336.37 306.13)">Bedfo<tspan class="cls-4" x="27.87" y="0">r</tspan><tspan x="31.48" y="0">d</tspan></text>
+  <text class="cls-3" transform="translate(393.28 387.34)">Lexington</text>
+  <text class="cls-3" transform="translate(394.74 434.87)"><tspan class="cls-16">W</tspan><tspan x="8.84" y="0">altham</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 468.53, 534.44)">B<tspan class="cls-20" x="7.1" y="0">r</tspan><tspan x="10.71" y="0">ookline</tspan></text>
+  <text class="cls-3" transform="translate(435.29 458.37)"><tspan class="cls-16">W</tspan><tspan x="8.84" y="0">ate</tspan><tspan class="cls-6" x="23.06" y="0">r</tspan><tspan x="27.11" y="0">town</tspan></text>
+  <text class="cls-3" transform="translate(418.63 502.57)">Newton</text>
+  <text class="cls-21" transform="matrix(0.73, -0.68, 0.68, 0.73, 361.15, 568.85)">W<tspan class="cls-10" x="9.07" y="0">ellesley</tspan></text>
+  <text class="cls-3" transform="translate(330.56 480.02)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">eston</tspan></text>
+  <text class="cls-3" transform="translate(278.77 502.23)"><tspan class="cls-22">W</tspan><tspan x="8.84" y="0">ayland</tspan></text>
+  <text class="cls-3" transform="translate(335.19 392.16)">Lincoln</text>
+  <text class="cls-3" transform="translate(276.91 317.25)">Conco<tspan class="cls-4" x="30.61" y="0">r</tspan><tspan x="34.22" y="0">d</tspan></text>
+  <text class="cls-3" transform="translate(210.1 304.35)">Acton</text>
+  <text class="cls-3" transform="translate(378.62 233.88)">Billerica</text>
+  <text class="cls-3" transform="translate(438.09 236.26)"><tspan class="cls-13">W</tspan><tspan x="9.21" y="0">ilmington</tspan></text>
+  <text class="cls-3" transform="translate(289.2 267.31)">Carlisle</text>
+  <text class="cls-1" transform="translate(466.74 326.43)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">obu</tspan><tspan class="cls-6" x="27.11" y="0">r</tspan><tspan x="31.15" y="0">n</tspan></text>
+  <text class="cls-1" transform="matrix(0.29, 0.96, -0.96, 0.29, 530.99, 302.6)">Stoneham</text>
+  <text class="cls-1" transform="translate(564.19 415.04)">Eve<tspan class="cls-4" x="17.51" y="0">r</tspan><tspan x="21.12" y="0">ett</tspan></text>
+  <text class="cls-1" transform="matrix(1, 0, 0, 1, 650.67, 281.61)">Peabody</text>
+  <text class="cls-3" transform="translate(466.74 326.43)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">obu</tspan><tspan class="cls-6" x="27.11" y="0">r</tspan><tspan x="31.15" y="0">n</tspan></text>
+  <text class="cls-3" transform="translate(394.02 175.46)"><tspan class="cls-15">T</tspan><tspan x="4.68" y="0">ewksbu</tspan><tspan class="cls-6" x="40.78" y="0">r</tspan><tspan x="44.82" y="0">y</tspan></text>
+  <text class="cls-3" transform="translate(300.12 138.74)">Lowell</text>
+  <text class="cls-3" transform="translate(340.81 69.48)">Dracut</text>
+  <text class="cls-3" transform="matrix(0.84, -0.54, 0.54, 0.84, 175.71, 140.74)"><tspan class="cls-23">T</tspan><tspan x="4.91" y="0">yngsbo</tspan><tspan class="cls-24" x="39.9" y="0">r</tspan><tspan x="43.51" y="0">ough</tspan></text>
+  <text class="cls-3" transform="translate(196.29 160.23)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">estfo</tspan><tspan class="cls-25" x="32.58" y="0">r</tspan><tspan x="36.19" y="0">d</tspan></text>
+  <text class="cls-3" transform="translate(146.96 72.32)">Dunstable</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 459.82, 365.44)"><tspan class="cls-14">W</tspan><tspan x="9.21" y="0">inchester</tspan></text>
+  <text class="cls-3" transform="matrix(0.29, 0.96, -0.96, 0.29, 530.99, 302.6)">Stoneham</text>
+  <text class="cls-3" transform="translate(564.19 415.04)">Eve<tspan class="cls-4" x="17.51" y="0">r</tspan><tspan x="21.12" y="0">ett</tspan></text>
+  <text class="cls-3" transform="translate(643.94 407.98)">Reve<tspan class="cls-4" x="23.52" y="0">r</tspan><tspan x="27.13" y="0">e</tspan></text>
+  <text class="cls-3" transform="translate(568.33 361.42)">Mel<tspan class="cls-4" x="16.41" y="0">r</tspan><tspan x="20.02" y="0">ose</tspan></text>
+  <text class="cls-3" transform="translate(568.33 380.86)">Malden</text>
+  <text class="cls-1" transform="matrix(1, 0, 0, 1, 589.02, 331.91)">Saugus</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 589.02, 331.91)">Saugus</text>
+  <text class="cls-3" transform="translate(636.27 308.59)"><tspan class="cls-16">L</tspan><tspan x="5.57" y="0">ynn</tspan></text>
+  <text class="cls-3" transform="translate(696.61 379.35)">Nahant</text>
+  <text class="cls-3" transform="translate(774.96 285.63)">Marblehead</text>
+  <text class="cls-3" transform="translate(753.92 264)">Salem</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 650.67, 281.61)">Peabody</text>
+  <text class="cls-1" transform="translate(563.48 256.88)"><tspan class="cls-26">L</tspan><tspan x="5.57" y="0">ynnfield</tspan></text>
+  <text class="cls-1" transform="translate(581.79 172.14)">Middleton</text>
+  <text class="cls-3" transform="translate(563.48 256.88)"><tspan class="cls-26">L</tspan><tspan x="5.57" y="0">ynnfield</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 512.72, 245.57)">Reading</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 530.92, 186.67)">North<tspan x="-6.3" y="12">Reading</tspan></text>
+  <text class="cls-3" transform="translate(967.41 124.6)">Rockpo<tspan class="cls-6" x="36.08" y="0">r</tspan><tspan x="40.12" y="0">t</tspan></text>
+  <text class="cls-1" transform="translate(883.67 128.21)">Gloucester</text>
+  <text class="cls-3" transform="translate(883.67 128.21)">Gloucester</text>
+  <text class="cls-27" transform="translate(664.78 199.46)">Danvers</text>
+  <text class="cls-28" transform="translate(664.78 199.46)">Danvers</text>
+  <text class="cls-3" transform="translate(493.5 138.2)">Andover</text>
+  <text class="cls-29" transform="matrix(1, 0, 0, 1, 457.92, 38.28)">Law<tspan class="cls-30" x="17.34" y="0">r</tspan><tspan class="cls-31" x="20.35" y="0">ence</tspan></text>
+  <text class="cls-5" transform="translate(599.72 21.93)">Geo<tspan class="cls-6" x="19.14" y="0">r</tspan><tspan x="23.18" y="0">getown</tspan></text>
+  <text class="cls-5" transform="translate(526.94 63.51)">No<tspan class="cls-6" x="13.11" y="0">r</tspan><tspan x="17.16" y="0">th</tspan><tspan x="-6.73" y="12">Andover</tspan></text>
+  <text class="cls-32" transform="matrix(1, 0, 0, 1, 457.92, 38.28)">Law<tspan class="cls-30" x="17.34" y="0">r</tspan><tspan class="cls-31" x="20.35" y="0">ence</tspan></text>
+  <text class="cls-3" transform="translate(597.85 74.96)">Boxfo<tspan class="cls-4" x="27.87" y="0">r</tspan><tspan x="31.48" y="0">d</tspan></text>
+  <text class="cls-3" transform="translate(672.66 121.43)"><tspan class="cls-15">T</tspan><tspan x="4.68" y="0">opsfield</tspan></text>
+  <text class="cls-3" transform="translate(755.69 139.01)">Hamilton</text>
+  <text class="cls-3" transform="translate(815.22 161.46)">Essex</text>
+  <text class="cls-3" transform="translate(743.17 235.84)">Beverly</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 840.55, 220)">Mancheste<tspan class="cls-33" x="50.86" y="0">r</tspan><tspan x="54.54" y="0">-</tspan><tspan x="0" y="12">by-the-Sea</tspan></text>
+  <text class="cls-3" transform="translate(780.15 85.19)">Ipswich</text>
+  <text class="cls-3" transform="translate(672.45 42.56)">Rowley</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 453.74, 19.76)">Methuen</text>
+  <text class="cls-3" transform="translate(739.37 336.2)">Swampscott</text>
+  <text class="cls-3" transform="translate(108.66 541.97)">Southbo<tspan class="cls-4" x="39.9" y="0">r</tspan><tspan x="43.51" y="0">ough</tspan></text>
+  <text class="cls-8" transform="matrix(1, 0, 0, 1, 408.23, 643.67)"><tspan class="cls-34">W</tspan><tspan x="9.07" y="0">estwood</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 408.23, 643.67)"><tspan class="cls-34">W</tspan><tspan x="9.07" y="0">estwood</tspan></text>
+  <text class="cls-3" transform="translate(433.08 885.63)">Mansfield</text>
+  <text class="cls-3" transform="translate(659.58 826.33)">Whitman</text>
+  <text class="cls-3" transform="translate(599.72 21.93)">Geo<tspan class="cls-6" x="19.14" y="0">r</tspan><tspan x="23.18" y="0">getown</tspan></text>
+  <text class="cls-3" transform="translate(581.79 172.14)">Middleton</text>
+  <text class="cls-3" transform="translate(545.49 292.14)"><tspan class="cls-16">W</tspan><tspan x="8.84" y="0">akefield</tspan></text>
+  <text class="cls-3" transform="translate(5.1 528.37)">No<tspan class="cls-6" x="13.11" y="0">r</tspan><tspan x="17.16" y="0">thbo</tspan><tspan class="cls-4" x="38.47" y="0">r</tspan><tspan x="42.08" y="0">ough</tspan></text>
+  <text class="cls-3" transform="translate(20.48 607.96)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">estbo</tspan><tspan class="cls-25" x="35.32" y="0">r</tspan><tspan x="38.93" y="0">ough</tspan></text>
+  <text class="cls-3" transform="translate(608.43 886.79)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">est</tspan><tspan x="-16.79" y="12">Bridgewater</tspan></text>
+  <text class="cls-3" transform="translate(677.92 873.26)">East<tspan x="-18.04" y="12">Bridgewater</tspan></text>
+  <text class="cls-3" transform="translate(526.94 63.51)">No<tspan class="cls-6" x="13.11" y="0">r</tspan><tspan x="17.16" y="0">th</tspan><tspan x="-6.73" y="12">Andover</tspan></text>
+  <text class="cls-3" transform="translate(506.09 706.97)">Canton</text>
+  <text class="cls-3" transform="translate(300.12 21.93)">Pelham</text>
+  <text class="cls-3" transform="translate(183.82 915.69)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">oonsocket</tspan></text>
+  <text class="cls-35" transform="matrix(1, 0.03, -0.03, 1, 250.74, 45.88)">NEW HAMPSHIRE</text>
+  <text class="cls-35" transform="matrix(1, -0.03, 0.04, 1, 5.98, 918.18)"><tspan xml:space="preserve">RHODE  ISLAND</tspan></text>
+  <text class="cls-3" transform="translate(600.81 425.79)">Chelsea</text>
+  <text class="cls-3" transform="translate(583.6 505.22)">BOS<tspan class="cls-36" x="21.32" y="0">T</tspan><tspan x="27.16" y="0">ON</tspan></text>
+  <text class="cls-3" transform="translate(696.61 173.46)"><tspan class="cls-4">W</tspan><tspan x="9.07" y="0">enham</tspan></text>
+  <text class="cls-3" transform="translate(418.32 296.65)">Burlington</text>
+  <text class="cls-3" transform="translate(71.94 300.51)">Ha<tspan class="cls-6" x="12.57" y="0">r</tspan><tspan x="16.62" y="0">va</tspan><tspan class="cls-4" x="27.56" y="0">r</tspan><tspan x="31.17" y="0">d</tspan></text>
+  <text class="cls-3" transform="translate(178.22 267.97)">Littleton</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 122.4, 335.14)">Boxbo<tspan class="cls-2" x="30.61" y="0">r</tspan><tspan x="34.22" y="0">ough</tspan></text>
+  <text class="cls-3" transform="translate(18.49 212.58)">Shirley</text>
+  <text class="cls-3" transform="translate(104.82 216)"><tspan class="cls-4">A</tspan><tspan x="6.89" y="0">yer</tspan></text>
+  <text class="cls-3" transform="translate(107.36 154.11)">G<tspan class="cls-4" x="7.66" y="0">r</tspan><tspan x="11.27" y="0">oton</tspan></text>
+  <text class="cls-3" transform="translate(34.34 26.41)">B<tspan class="cls-4" x="7.1" y="0">r</tspan><tspan x="10.71" y="0">ookline</tspan></text>
+  <text class="cls-3" transform="translate(736.68 915.15)">Halifax</text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 831.57, 904.74)">Kingston</text>
+  <text class="cls-3" transform="translate(896.19 872.72)">Duxbu<tspan class="cls-6" x="30.61" y="0">r</tspan><tspan x="34.65" y="0">y</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 840.75, 751.07)">Marshfield</text>
+  <text class="cls-3" transform="translate(755.93 768.13)">Hanover</text>
+  <text class="cls-3" transform="translate(783.42 708.84)">Norwell</text>
+  <text class="cls-3" transform="translate(822.27 670.73)">Scituate</text>
+  <text class="cls-3" transform="translate(774.96 607.42)">Cohasset</text>
+  <text class="cls-3" transform="matrix(0.88, -0.47, 0.47, 0.88, 691.83, 741.86)">Rockland</text>
+  <text class="cls-3" transform="translate(610.79 726.91)">Holb<tspan class="cls-4" x="21.86" y="0">r</tspan><tspan x="25.47" y="0">ook</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 578.55, 765.54)"><tspan class="cls-37">A</tspan><tspan x="6.89" y="0">von</tspan></text>
+  <text class="cls-3" transform="matrix(1, 0, 0, 1, 564, 697.08)">Randolph</text>
+  <text class="cls-3" transform="translate(637.67 770.75)">Abington</text>
+</svg>
