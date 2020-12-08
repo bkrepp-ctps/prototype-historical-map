@@ -1,0 +1,17 @@
+#svg_container {
+	height: 400px;
+	width:  800px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: steelblue;
+	float: left;
+}
+#slider-vertical {
+	float: left;
+	margin-left: 30px;
+	margin-right: 30px;
+}
+
+#slider_label {
+	float: left;
+}
