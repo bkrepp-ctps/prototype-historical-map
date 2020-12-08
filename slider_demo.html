@@ -12,18 +12,34 @@
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
   <script>
+  /*
+	The out-of-the-box jQueryUI control doesn't support a vertically-oriented
+	slider control in which the minimum value is at the "top" of the slider.
+	The folderol below is implemented to work around this (current) restriction.
+	As configured, the "raw" control delivers values between -221 and 0;
+	this domain is mapped into the range [1800 .. 2021] using the expression
+	    BASE_YEAR + ( -1 * domain_value )
+	where BASE_YEAR is defined as 1800. Various blog posts have counseled
+	using (-1 * domain_value) rather than Math.abs(domain_value), but without
+	citing the rationale for doing this. This having been said, I'll finger
+	my ouija board and use (-1 * domain_value) to be on the safe side.
+	-- B. Krepp, attending metaphysician
+	8 December 2020
+  */
+  var BASE_YEAR = 1800;
   $( function() {
     $( "#slider-vertical" ).slider({
       orientation: "vertical",
       range: "max",
-      min: 1800,
-      max: 2021,
-      value: 2000,
+      min: -221,
+      max: 0,
+      value: -100, // N.B. This value maps into 1900.
       slide: function( event, ui ) {
-        $( "#amount" ).val( ui.value );
+	    // console.log('ui.value = ' + ui.value);
+        $( "#amount" ).val( BASE_YEAR + ( -1 * ui.value ) );
       }
     });
-    $( "#amount" ).val( $( "#slider-vertical" ).slider( "value" ) );
+    $( "#amount" ).val( BASE_YEAR + ( -1 * $( "#slider-vertical" ).slider( "value" ) ) );
   } );
   </script>
 </head>
