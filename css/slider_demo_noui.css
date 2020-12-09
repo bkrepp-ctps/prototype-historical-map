@@ -7,10 +7,16 @@
 	float: left;
 }
 #slider-vertical {
+	height:400px;
 	float: left;
 	margin-left: 60px;
 	margin-right: 30px;
 }
 #slider_label {
 	float: left;
+}
+#year {
+	border:0; 
+	color:#f6931f; 
+	font-weight:bold;
 }
