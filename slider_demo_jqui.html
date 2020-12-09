@@ -7,7 +7,7 @@
   <link rel="stylesheet" href="css/jquery-ui.css">
   <link rel="stylesheet" href="css/style.css">
   
-  <link rel="stylesheet" href="css/slider_demo.css">
+  <link rel="stylesheet" href="css/slider_demo_jqui.css">
   
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
@@ -23,8 +23,17 @@
 	using (-1 * domain_value) rather than Math.abs(domain_value), but without
 	citing the rationale for doing this. This having been said, I'll finger
 	my ouija board and use (-1 * domain_value) to be on the safe side.
+	
+	This demo is based on 
+	1. the out-of-the-box jQueryUI slider control:
+	    https://jqueryui.com/slider/
+	2. the API documentation for this control:
+		https://api.jqueryui.com/slider/
+	3. this posting on overflow.com:
+		https://stackoverflow.com/questions/3083874/is-there-a-way-to-make-the-jquery-ui-slider-start-with-0-on-top-instead-of-on-bo
+	
 	-- B. Krepp, attending metaphysician
-	8 December 2020
+	   8, 9 December 2020
   */
   var BASE_YEAR = 1800;
   $( function() {
