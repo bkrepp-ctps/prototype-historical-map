@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>noUISlider Vertical Slider Demo</title>
+  
+  <link rel="stylesheet" href="css/slider_demo_noui.css">
+  <link rel="stylesheet" href="libs/nouislider.css">
+  
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="libs/nouislider.js"></script>
+</head>
+<body>
+ 
+<div id="outer_container">
+	<div id="svg_container">
+	</div>
+	<div id="slider-vertical" style="height:350px;">
+	</div>
+	<div id="slider-label">
+		<p>
+		  <label for="amount">Year:</label>
+		  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+		</p>
+	</div>
+</div>
+
+  <script>
+  /*
+	This demo is based on 
+	1. the noUI slider control:
+	    https://refreshless.com/nouislider/
+	2. the GitHub repository for this:
+		https://github.com/leongersen/noUiSlider
+	
+	-- B. Krepp, attending metaphysician
+	   9 December 2020
+  */
+  
+	var verticalSlider = document.getElementById('slider-vertical');
+	noUiSlider.create(verticalSlider, {
+		start: 40,
+		orientation: 'vertical',
+		range: {
+			'min': 1800,
+			'max': 2021
+			},
+		format: {
+			// 'to' the formatted value. Receives a number.
+			to: function (value) {
+				// console.log('to formater: value = ' + value);
+				$('#amount').val(value.toFixed(0));
+				return value;
+			},
+			// 'from' the formatted value.
+			// Receives a string, should return a number.
+			from: function (value) {
+				return Number(value);
+			}
+		},
+		// tooltips: [ wNumb({decimals: 0}) ]
+		tooltips: [ true ]
+	});
+
+  </script>
+
+</body>
+</html>
