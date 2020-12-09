@@ -16,12 +16,12 @@
 <div id="outer_container">
 	<div id="svg_container">
 	</div>
-	<div id="slider-vertical" style="height:350px;">
+	<div id="slider-vertical">
 	</div>
 	<div id="slider-label">
 		<p>
-		  <label for="amount">Year:</label>
-		  <input type="text" id="amount" readonly style="border:0; color:#f6931f; font-weight:bold;">
+		  <label for="year">Year:</label>
+		  <input type="text" id="year" readonly>
 		</p>
 	</div>
 </div>
@@ -50,7 +50,7 @@
 			// 'to' the formatted value. Receives a number.
 			to: function (value) {
 				// console.log('to formater: value = ' + value);
-				$('#amount').val(value.toFixed(0));
+				$('#year').val(value.toFixed(0));
 				return value;
 			},
 			// 'from' the formatted value.
@@ -60,7 +60,15 @@
 			}
 		},
 		// tooltips: [ wNumb({decimals: 0}) ]
-		tooltips: [ true ]
+		tooltips: [ {
+			to: function (value) {
+				return value.toFixed(0);
+				},
+			from: function (value) {
+				return Number(value.toFixed(0));
+				}
+			}
+		]
 	});
 
   </script>
