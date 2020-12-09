@@ -26,7 +26,7 @@
 	</div>
 </div>
 
-  <script>
+	<script>
   /*
 	This demo is based on 
 	1. the noUI slider control:
@@ -49,7 +49,6 @@
 	function from_formatter(value) {
 		return Number(value);
 	}
-
 	
 	var verticalSlider = document.getElementById('slider-vertical');
 	noUiSlider.create(verticalSlider, {
@@ -58,48 +57,12 @@
 		range: {
 			'min': 1800,
 			'max': 2021
-			},
-		format: {
-			// 'to' the formatted value. Receives a number.
-			to: to_formatter
-			/*
-			function (value) {
-				// console.log('to formater: value = ' + value);
-				$('#year').val(value.toFixed(0));
-				return value;
-			}
-			*/
-			,
-			// 'from' the formatted value.
-			// Receives a string, should return a number.
-			from: from_formatter
-			/*
-			function (value) {
-				return Number(value);
-			}
-			*/
 		},
-		// tooltips: [ wNumb({decimals: 0}) ]
-		tooltips: [ {
-			to: to_formatter
-			/*
-			function (value) {
-				return value.toFixed(0);
-				}
-			*/
-				,
-			from: from_formatter
-			/*
-			function (value) {
-				return Number(value.toFixed(0));
-				}
-			*/
-			
-			}
-		]
+		format: {	to: to_formatter,
+					from: from_formatter
+		},
+		tooltips: [ { to: to_formatter, from: from_formatter } ]
 	});
-
-  </script>
-
+	</script>
 </body>
 </html>
