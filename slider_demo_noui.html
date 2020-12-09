@@ -38,6 +38,19 @@
 	   9 December 2020
   */
   
+	// 'to' formatter function: receives a number.
+	function to_formatter(value) {
+		// console.log('to formater: value = ' + value);
+		$('#year').val(value.toFixed(0));
+		return value.toFixed(0);
+	} 
+
+	// 'from' the formatted value: receives a string, returns a number.	
+	function from_formatter(value) {
+		return Number(value);
+	}
+
+	
 	var verticalSlider = document.getElementById('slider-vertical');
 	noUiSlider.create(verticalSlider, {
 		start: 40,
@@ -48,25 +61,40 @@
 			},
 		format: {
 			// 'to' the formatted value. Receives a number.
-			to: function (value) {
+			to: to_formatter
+			/*
+			function (value) {
 				// console.log('to formater: value = ' + value);
 				$('#year').val(value.toFixed(0));
 				return value;
-			},
+			}
+			*/
+			,
 			// 'from' the formatted value.
 			// Receives a string, should return a number.
-			from: function (value) {
+			from: from_formatter
+			/*
+			function (value) {
 				return Number(value);
 			}
+			*/
 		},
 		// tooltips: [ wNumb({decimals: 0}) ]
 		tooltips: [ {
-			to: function (value) {
+			to: to_formatter
+			/*
+			function (value) {
 				return value.toFixed(0);
-				},
-			from: function (value) {
+				}
+			*/
+				,
+			from: from_formatter
+			/*
+			function (value) {
 				return Number(value.toFixed(0));
 				}
+			*/
+			
 			}
 		]
 	});
