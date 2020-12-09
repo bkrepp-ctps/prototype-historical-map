@@ -18,6 +18,8 @@
 	</div>
 	<div id="slider-vertical">
 	</div>
+	<div id="pips-range-vertical">
+	</div>
 	<div id="slider-label">
 		<p>
 		  <label for="year">Year:</label>
@@ -52,7 +54,7 @@
 	
 	var verticalSlider = document.getElementById('slider-vertical');
 	noUiSlider.create(verticalSlider, {
-		start: 40,
+		start: 1800,
 		orientation: 'vertical',
 		range: {
 			'min': 1800,
@@ -61,8 +63,24 @@
 		format: {	to: to_formatter,
 					from: from_formatter
 		},
-		tooltips: [ { to: to_formatter, from: from_formatter } ]
+		tooltips: [ { to: to_formatter, from: from_formatter } ],
+		pips: {
+			mode: 'values',
+			values: [1800, 1820, 1840, 1860, 1880, 1900, 1920, 1940, 1960, 1980, 2000, 2020]
+		}
 	});
+/*
+	var pipsRangeVertical = document.getElementById('pips-range-vertical');
+	noUiSlider.create(pipsRangeVertical, {
+		range: { 'min': [1800], 'max' : [2021] },
+		start: 1800,
+		orientation: 'vertical',
+		pips: {
+			mode: 'values',
+			values: [1800, 1825, 1850, 1875, 1900, 1925, 1950, 1975, 2000, 2020]
+		}
+	});
+*/
 	</script>
 </body>
 </html>
