@@ -1,3 +1,6 @@
+#outer_container {
+	margin-top: 50px;
+}
 #svg_container {
 	height: 400px;
 	width:  800px;
