@@ -32,8 +32,6 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	
 	// Turn on all toggleable layers whose start_year is <= current year AND
 	// whose end_year is > current_year
-	//
-	// *** TBD: Add 2nd clause to filter test!
 	var to_show = _.filter(toggleable_layers, 
 	                       function(rec) { 
 						       //console.log('rec.layer_name ' + rec.start_year + ' ' + rec.end_year);
