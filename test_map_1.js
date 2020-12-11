@@ -26,9 +26,31 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	//     "handle" is the index of the handle that caused the event, starting at zero. 
 	//     "values[handle]" gives the value for the handle that triggered the event.
 	var _DEBUG_HOOK = 0;
-	var year_str = values[handle];
-	var year = +values[handle];
-	console.log(year);
+	var current_year_str = values[handle];
+	var current_year = +values[handle];
+	console.log('curent_year: ' + current_year);
+	
+	// Turn on all toggleable layers whose start_year is <= current year AND
+	// whose end_year is > current_year
+	//
+	// *** TBD: Add 2nd clause to filter test!
+	var to_show = _.filter(toggleable_layers, 
+	                       function(rec) { 
+						       //console.log('rec.layer_name ' + rec.start_year + ' ' + rec.end_year);
+						       return rec.start_year <= current_year && rec.end_year > current_year; });
+	to_show.forEach(function(layer) {
+		var query  = '#' + layer.layer_name;
+		console.log('Show ' + layer.layer_name);
+		$(query).show();
+	});
+	
+	// Turn off all toggleable layers whose start_year is > current_year.
+	var to_hide = _.filter(toggleable_layers, function(rec) { return rec.start_year > current_year; });
+	to_hide.forEach(function(layer) { 
+		var query = '#' + layer.layer_name;
+		console.log('Hiding ' + layer.layer_name);
+		$(query).hide();
+	});
 } // sliderHandler()
 
 function initialize() {
@@ -68,15 +90,21 @@ function initialize() {
 	
 	d3.csv("csv/feature_timeline.csv", function(d) {
 	  return {
-		layer_name:	d.layer_name,
+		layer_name:	d.layer_name.replace('"',''),
 		start_year: +d.start_year,
 		end_year: 	+d.end_year,
 		type:		d.type
 	  };
 	}).then(function(data) {
 		all_layers = data;
-		toggle_layers = _.filter(data, function(rec) { return rec.type !== 'z'; });
+		toggleable_layers = _.filter(data, function(rec) { return rec.type !== 'z'; });
 		var _DEBUG_HOOK = 0;
+		// Hide all toggleable layers at initialization
+		toggleable_layers.forEach(function(layer) { 
+			var query = '#' + layer.layer_name;
+			// console.log('Hiding ' + layer.layer_name);
+			$(query).hide();
+		});
 	});
 	
 } // initialize()
