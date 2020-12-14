@@ -6,13 +6,16 @@
 		https://github.com/leongersen/noUiSlider
 
 	-- B. Krepp, attending metaphysician
-	   10, 11 December 2020
+	   10, 11, 14 December 2020
 */
 
 var verticalSlider = document.getElementById('slider-vertical');
 var all_layers = []			// All layers in SVG map, includes "base layers"
     toggleable_layers = [];	// Toggle-able layers in SVG map
 	
+var debugFlag = false;
+	
+// Event handler for slider 'update event
 function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
     // values: Current slider values (array);
     // handle: Handle that caused the event (number);
@@ -25,10 +28,10 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	//     "values" is an array containing the current slider values, with formatting applied. 
 	//     "handle" is the index of the handle that caused the event, starting at zero. 
 	//     "values[handle]" gives the value for the handle that triggered the event.
-	var _DEBUG_HOOK = 0;
 	var current_year_str = values[handle];
 	var current_year = +values[handle];
-	console.log('curent_year: ' + current_year);
+	
+	if (true) { console.log('curent_year: ' + current_year); }
 	
 	// Turn on all toggleable layers whose start_year is <= current year AND
 	// whose end_year is > current_year
@@ -38,7 +41,7 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 						       return rec.start_year <= current_year && rec.end_year > current_year; });
 	to_show.forEach(function(layer) {
 		var query  = '#' + layer.layer_name;
-		console.log('Show ' + layer.layer_name);
+		if (true) { console.log('Show ' + layer.layer_name); }
 		$(query).show();
 	});
 	
@@ -46,13 +49,14 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	var to_hide = _.filter(toggleable_layers, function(rec) { return rec.start_year > current_year; });
 	to_hide.forEach(function(layer) { 
 		var query = '#' + layer.layer_name;
-		console.log('Hiding ' + layer.layer_name);
+		if (debugFlag) { console.log('Hiding ' + layer.layer_name); }
 		$(query).hide();
 	});
 } // sliderHandler()
 
 function initialize() {
-	// 'to' and 'from' formatter functions, needed by noUiSlider control.
+	// 'to' and 'from' formatter functions, *both* of which are required 
+	//  by the noUiSlider control, even if only one is used.
 	//
 	// 'to' formatter function: receives a number.
 	function to_formatter(value) {
@@ -83,8 +87,8 @@ function initialize() {
 		}
 	});
 	
-	// Bind event handler for 'end' [slide] event from noUiSlider control
-	verticalSlider.noUiSlider.on('end', sliderHandler);
+	// Bind event handler for 'update' [slide] event from noUiSlider control
+	verticalSlider.noUiSlider.on('update', sliderHandler);
 	
 	d3.csv("csv/feature_timeline.csv", function(d) {
 	  return {
