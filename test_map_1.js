@@ -33,8 +33,8 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	
 	if (true) { console.log('curent_year: ' + current_year); }
 	
-	// Turn on all toggleable layers whose start_year is <= current year AND
-	// whose end_year is > current_year
+	// Turn on all toggleable layers whose 
+	// start_year is <= current year AND whose end_year is > current_year.
 	var to_show = _.filter(toggleable_layers, 
 	                       function(rec) { 
 						       //console.log('rec.layer_name ' + rec.start_year + ' ' + rec.end_year);
@@ -45,8 +45,10 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 		$(query).show();
 	});
 	
-	// Turn off all toggleable layers whose start_year is > current_year.
-	var to_hide = _.filter(toggleable_layers, function(rec) { return rec.start_year > current_year; });
+	// Turn off all toggleable layers whose 
+	// start_year is > current_year OR whose end_year <= current_year.
+	var to_hide = _.filter(toggleable_layers, function(rec) { 
+													return rec.start_year > current_year || rec.end_year <= current_year; });
 	to_hide.forEach(function(layer) { 
 		var query = '#' + layer.layer_name;
 		if (debugFlag) { console.log('Hiding ' + layer.layer_name); }
@@ -90,7 +92,7 @@ function initialize() {
 	// Bind event handler for 'update' [slide] event from noUiSlider control
 	verticalSlider.noUiSlider.on('update', sliderHandler);
 	
-	d3.csv("csv/feature_timeline.csv", function(d) {
+	d3.csv("csv/orange_line_timeline.csv", function(d) {
 	  return {
 		layer_name:	d.layer_name.replace('"',''),
 		start_year: +d.start_year,
