@@ -15,7 +15,7 @@ var all_layers = []			// All layers in SVG map, includes "base layers"
 	
 var debugFlag = false;
 	
-// Event handler for slider 'update event
+// Event handler for slider 'update' event
 function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
     // values: Current slider values (array);
     // handle: Handle that caused the event (number);
@@ -92,7 +92,9 @@ function initialize() {
 	// Bind event handler for 'update' [slide] event from noUiSlider control
 	verticalSlider.noUiSlider.on('update', sliderHandler);
 	
-	d3.csv("csv/orange_line_timeline.csv", function(d) {
+	var csv_fn = 'csv/feature_timeline.csv';
+	// var csv_fn = 'csv/orange_line_timeline.csv';
+	d3.csv(csv_fn, function(d) {
 	  return {
 		layer_name:	d.layer_name.replace('"',''),
 		start_year: +d.start_year,
