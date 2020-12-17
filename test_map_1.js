@@ -6,7 +6,7 @@
 		https://github.com/leongersen/noUiSlider
 
 	-- B. Krepp, attending metaphysician
-	   10, 11, 14 December 2020
+	   10, 11, 14-17 December 2020
 */
 
 var verticalSlider = document.getElementById('slider-vertical');
@@ -24,14 +24,14 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
     // positions: Left offset of the handles (array);
     // noUiSlider: slider public Api (noUiSlider);
 	// 
-	// Per the documentation:
+	// Per the noUiSilder documentation:
 	//     "values" is an array containing the current slider values, with formatting applied. 
 	//     "handle" is the index of the handle that caused the event, starting at zero. 
 	//     "values[handle]" gives the value for the handle that triggered the event.
+	
 	var current_year_str = values[handle];
 	var current_year = +values[handle];
-	
-	if (true) { console.log('curent_year: ' + current_year); }
+	if (debugFlag) { console.log('curent_year: ' + current_year); }
 	
 	// Turn on all toggleable layers whose 
 	// start_year is <= current year AND whose end_year is > current_year.
@@ -39,10 +39,13 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	                       function(rec) { 
 						       //console.log('rec.layer_name ' + rec.start_year + ' ' + rec.end_year);
 						       return rec.start_year <= current_year && rec.end_year > current_year; });
+							   
 	to_show.forEach(function(layer) {
 		var query  = '#' + layer.layer_name;
-		if (true) { console.log('Show ' + layer.layer_name); }
+		if (debugFlag) { console.log('Show ' + layer.layer_name); }
 		$(query).show();
+		var txt = layer.desc;
+		$('#output').html(txt);
 	});
 	
 	// Turn off all toggleable layers whose 
@@ -54,6 +57,17 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 		if (debugFlag) { console.log('Hiding ' + layer.layer_name); }
 		$(query).hide();
 	});
+	
+	// Clear the output area, and display the descriptive text for the current_year.
+		// Clear the output area.
+	$('#output').html('');
+	var new_this_year = _.filter(toggleable_layers, function(rec) { return rec.start_year === current_year; });
+	var desc_text = '';
+	new_this_year.forEach(function(layer) {
+		desc_text += '<p>' + layer.desc + '</p>';
+	});
+	var prefix = '<h3>' + current_year + '</h3>';
+	$('#output').html(prefix + desc_text);
 } // sliderHandler()
 
 function initialize() {
@@ -99,16 +113,15 @@ function initialize() {
 		layer_name:	d.layer_name.replace('"',''),
 		start_year: +d.start_year,
 		end_year: 	+d.end_year,
-		type:		d.type
+		type:		d.type,
+		desc:		d.description
 	  };
 	}).then(function(data) {
 		all_layers = data;
 		toggleable_layers = _.filter(data, function(rec) { return rec.type !== 'z'; });
-		var _DEBUG_HOOK = 0;
 		// Hide all toggleable layers at initialization
 		toggleable_layers.forEach(function(layer) { 
 			var query = '#' + layer.layer_name;
-			// console.log('Hiding ' + layer.layer_name);
 			$(query).hide();
 		});
 	});
