@@ -96,6 +96,7 @@ function initialize() {
 		step: 1,
 		keyboardSupport: true,
 		keyboardDefaultStep: 1,
+		keyboardPageMultiplier: 10,
 		format: {	to: to_formatter,
 					from: from_formatter
 		},
@@ -117,7 +118,7 @@ function initialize() {
 		start_year: +d.start_year,
 		end_year: 	+d.end_year,
 		type:		d.type,
-		desc:		d.description
+		event:		d.event
 	  };
 	}).then(function(data) {
 		all_layers = data;
@@ -127,6 +128,10 @@ function initialize() {
 			var query = '#' + layer.layer_name;
 			$(query).hide();
 		});
+		
+		// BK hack 12/22/30
+		var nt_layers = _.filter(data, function(rec) { return rec.type == 'z'; });
+		var _DEBUG_HOOK = 0;
 	});
 	
 } // initialize()
