@@ -93,6 +93,9 @@ function initialize() {
 			'min': 1800,
 			'max': 2021
 		},
+		step: 1,
+		keyboardSupport: true,
+		keyboardDefaultStep: 1,
 		format: {	to: to_formatter,
 					from: from_formatter
 		},
