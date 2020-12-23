@@ -128,10 +128,6 @@ function initialize() {
 			var query = '#' + layer.layer_name;
 			$(query).hide();
 		});
-		
-		// BK hack 12/22/30
-		var nt_layers = _.filter(data, function(rec) { return rec.type == 'z'; });
-		var _DEBUG_HOOK = 0;
 	});
 	
 } // initialize()
