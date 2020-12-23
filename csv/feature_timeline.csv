@@ -9,7 +9,7 @@ Shore,,0,9999,z
 towns,,0,9999,z
 MPO-Boundary,,0,9999,z
 Town-Names,,0,9999,z
-Hartford-Turnpike-1804-1838,Salem Turnpike (Rt. 107),1803,1868,h
+Salem-Turnpike-1803-1868,Salem Turnpike (Rt. 107),1803,1868,h
 Hartford-Turnpike-1804-1838,Hartford-Dedham Turnpike (Rt. 109),1804,1838,h
 Newburyport-Turnpike-1805,Newburyport Turnpike (Rt. 1 north of Boston),1805,9999,h
 Norfolk-Bristol-TP-1806-1857,Norfolk–Bristol Turnpike (Rt. 1 south of Boston),1806,1857,h
@@ -24,6 +24,7 @@ NULL,First Railroad in U.S. (Quincy Granite Railway),1826,1871,r
 Route-2-East-1829,"Cambridge-Concord Turnpike (Rt. 2 east of Concord), made public highway",1829,9999,h
 Route-2-West-1830,"Union Turnpike (Rt. 2 west of Concord), made public highway",1830,9999,h
 Framingham-CR-1834,Worcester CR line (Boston–Framingham),1834,9999,r
+Providence-CR-1834,Providence CR Line (Providence-Boston),1834,9999,r
 Lowell-CR-1835,Lowell CR line (Lowell–Boston),1835,9999,r
 Haverhill-CR-1837,Haverhill CR line (Wilmington–Bradford),1837,9999,r
 Route-109-1838,"Hartford-Dedham Turnpike (Rt. 109), made public highway",1838,9999,h
@@ -74,6 +75,7 @@ The_Air_Line-1873-1924,"The AIR Line (Franklin–NewHaven, CT)",1873,1924,r
 Lowell_Andover_RR-1874-1920,Lowell Andover RR (Lowell–Andover),1874,1920,r
 MCRT-1875-1979,Central Massachusetts RR (Cambridge–Northampton),1875,1979,r
 Lakeside_RR-1886-1964,Eastern RR (Marblehead),1886,1961,r
+Stoughton-CR-1888,Stoughton CR Line,1888,9999,r
 Green_Line-1889,First Electric Street Railway Line In Boston,1889,9999,t
 NULL,Massachusetts Highway Commission,1894,1919,l
 NULL,North Station,1894,9999,r
@@ -98,9 +100,9 @@ NULL,Massachusetts Department of Public Works,1919,2009,l
 Orange_Line-1919-1975,Orange Line (Sullivan–Everett),1919,1975,t
 NULL,First Bus Line in Boston Transit System,1922,9999,t
 Logan-Airport-1923,Boston Airport,1923,9999,a
-Red_LIne-1927,Red Line (Andrew–Fields Corner),1927,9999,t
-Red_LIne-1928,Red Line (Fields Corner–Ashmont),1928,9999,t
-Red_LIne-1929,Red Line (Mattapan High Speed Line),1929,9999,t
+Red_Line-1927,Red Line (Andrew–Fields Corner),1927,9999,t
+Red_Line-1928,Red Line (Fields Corner–Ashmont),1928,9999,t
+Red_Line-1929,Red Line (Mattapan High Speed Line),1929,9999,t
 Sumner-Tunnel-1934,Sumner Tunnel,1934,9999,h
 NULL,First Trackless Trolley (Harvard Sq.–Lechmere),1936,1963,t
 Hanscom-AFB-1943,Hanscom Air Force Base,1941,9999,a
@@ -118,7 +120,7 @@ Blue_Line-OH-Wonderland-1954,Blue Line (Orient Heights–Wonderland),1954,9999,t
 I95-1955,Interstate 95 (Rt. 128–I-495–NH Border),1955,9999,h
 NULL,Federal Highway Interstate Program Enacted,1956,9999,l
 NULL,Massachusetts Turnpike Authority-Toll Booths,1957,2016,h
-Route-3-Boston-Norwell-1957,"Rt. 3 (I-93–Norwell), opened 1957",1957,9999,h
+Route-3-Norwell-Boston-1957,"Rt. 3 (I-93–Norwell), opened 1957",1957,9999,h
 I90-West-1957,Interstate 90 (Worcester–I-495–Rt. 128),1957,9999,h
 I93-I95-Fort-Hill-1958,Interstate 93 (Fort Hill–SE Expressway),1958,9999,h
 I-93_SE_Expressway_Rt.3_Rt.24_I-95,Interstate 93 (SE Expressway–Rt. 3–Rt. 24–I-95),1958,9999,h
