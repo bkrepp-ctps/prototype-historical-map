@@ -6,12 +6,15 @@
 		https://github.com/leongersen/noUiSlider
 
 	-- B. Krepp, attending metaphysician
-	   10, 11, 14-17 December 2020
+	   10, 11, 14-17, 29 December 2020
 */
 
 var verticalSlider = document.getElementById('slider-vertical');
-var all_layers = []			// All layers in SVG map, includes "base layers"
-    toggleable_layers = [];	// Toggle-able layers in SVG map
+var all_records = [],			// All records in CSV file
+	all_milestones = [],		// All milestones in CSV file (base layers are not milestones);
+                                // includees milestones w/o a layer, "base layers", and toggleable layers
+    all_layers = [],			// All layers in SVG file, includes "base layers" and toggleable layers
+	toggleable_layers = [];		// Toggle-able layers in SVG map
 	
 var debugFlag = false;
 	
@@ -39,13 +42,12 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	                       function(rec) { 
 						       //console.log('rec.layer_name ' + rec.start_year + ' ' + rec.end_year);
 						       return rec.start_year <= current_year && rec.end_year > current_year; });
-							   
 	to_show.forEach(function(layer) {
-		var query  = '#' + layer.layer_name;
+		var query_str  = '#' + layer.layer_name;
 		if (debugFlag) { console.log('Show ' + layer.layer_name); }
-		$(query).show();
-		var txt = layer.desc;
-		$('#output').html(txt);
+		$(query_str).show();
+		// var txt = layer.desc;
+		// $('#output').html(txt);
 	});
 	
 	// Turn off all toggleable layers whose 
@@ -53,19 +55,23 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	var to_hide = _.filter(toggleable_layers, function(rec) { 
 													return rec.start_year > current_year || rec.end_year <= current_year; });
 	to_hide.forEach(function(layer) { 
-		var query = '#' + layer.layer_name;
+		var query_str = '#' + layer.layer_name;
 		if (debugFlag) { console.log('Hiding ' + layer.layer_name); }
-		$(query).hide();
+		$(query_str).hide();
 	});
 	
-	// Clear the output area, and display the descriptive text for the current_year.
-		// Clear the output area.
+	// Clear the output area, and display the descriptive text for this year's milestones.
 	$('#output').html('');
-	var new_this_year = _.filter(toggleable_layers, function(rec) { return rec.start_year === current_year; });
+	var opened_this_year = _.filter(all_milestones, function(rec) { return rec.start_year === current_year; });
 	var desc_text = '';
-	new_this_year.forEach(function(layer) {
-		desc_text += '<p>' + layer.desc + '</p>';
+	opened_this_year.forEach(function(layer) {
+		desc_text += '<p>' + layer.milestone + '</p>';
 	});
+	var closed_this_year = _.filter(all_milestones, function(rec) { return rec.end_year === current_year; });
+	opened_this_year.forEach(function(layer) {
+		desc_text += '<p>' + layer.milestone + '</p>';
+	});
+	
 	var prefix = '<h3>' + current_year + '</h3>';
 	$('#output').html(prefix + desc_text);
 } // sliderHandler()
@@ -121,15 +127,16 @@ function initialize() {
 		event:		d.milestone
 	  };
 	}).then(function(data) {
-		all_layers = data;
-		toggleable_layers = _.filter(data, function(rec) { return rec.type !== 'z'; });
+		all_records = data;	// Temp, for debuggin
+		all_milestsones = _.filter(data, function(rec) { return rec.type !== 'z'; });
+		all_layers = _.filter(data, function(rec) { return rec.layer_name !== 'NULL'; });
+		toggleable_layers = _.filter(all_layers, function(rec) { return rec.type !== 'z'; });
 		// Hide all toggleable layers at initialization
 		toggleable_layers.forEach(function(layer) { 
-			var query = '#' + layer.layer_name;
-			$(query).hide();
+			var query_str = '#' + layer.layer_name;
+			$(query_str).hide();
 		});
 	});
-	
 } // initialize()
 
 $(document).ready(function() {
