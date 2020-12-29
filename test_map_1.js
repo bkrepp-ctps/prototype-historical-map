@@ -118,7 +118,7 @@ function initialize() {
 		start_year: +d.start_year,
 		end_year: 	+d.end_year,
 		type:		d.type,
-		event:		d.event
+		event:		d.milestone
 	  };
 	}).then(function(data) {
 		all_layers = data;
