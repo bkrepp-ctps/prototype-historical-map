@@ -50,5 +50,5 @@ def generate_html(in_svg_fn, out_html_fn):
 
 home_dir = r'C:/Users/ben_k/work_stuff/prototype-historical-map/'
 in_svg = home_dir + 'svg/Timeline_Base_Map-Master-Inline-Style-01.svg'
-out_html = home_dir + 'foobar.html'
+out_html = home_dir + 'test_map_1.html'
 
