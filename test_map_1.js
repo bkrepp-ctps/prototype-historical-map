@@ -63,25 +63,21 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	// Clear the output area, and display the descriptive text for this year's milestones.
 	$('#output').html('');
 	var opened_this_year = _.filter(all_milestones, function(rec) { 
+														console.log(rec.start_year);
 														return rec.start_year === current_year; });
 	var desc_text = '';
 	opened_this_year.forEach(function(rec) {
-		
-		console.log('open: ' + rec.milestone);
-		
-		desc_text += '<p>' + rec.milestone + '</p>';
+		// console.log('open: ' + rec.milestone);
+		desc_text += rec.milestone +  '<br/>';
 	});
 	var closed_this_year = _.filter(all_milestones, function(rec) { 
 														return rec.end_year === current_year; });
 	closed_this_year.forEach(function(rec) {
-		
-		console.log('closed: ' + rec.milestone);
-		
-		desc_text += '<p>' + rec.milestone + '</p>';
+		// console.log('closed: ' + rec.milestone);
+		desc_text += rec.milestone +  '<br/>';
 	});
 	
-	var prefix = '<h3>' + current_year + '</h3>';
-	prefix += 'Hello, world!';
+	var prefix = '<h4>' + current_year + '</h4>';
 	$('#output').html(prefix + desc_text);
 } // sliderHandler()
 
@@ -137,7 +133,7 @@ function initialize() {
 	  };
 	}).then(function(data) {
 		all_records = data;	// Temp, for debuggin
-		all_milestsones = _.filter(data, function(rec) { return rec.type !== 'z'; });
+		all_milestones = _.filter(data, function(rec) { return rec.type !== 'z'; });
 		all_layers = _.filter(data, function(rec) { return rec.layer_name !== 'NULL'; });
 		toggleable_layers = _.filter(all_layers, function(rec) { return rec.type !== 'z'; });
 		// Hide all toggleable layers at initialization
