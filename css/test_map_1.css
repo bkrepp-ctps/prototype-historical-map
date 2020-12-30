@@ -16,14 +16,14 @@
 	margin-left: 60px;
 	margin-right: 75px;
 }
-
 #output {
-	width: 1000px;
+	width: 800px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: steelblue;
 	margin-top: 10px;
 	min-height: 40px;
-	max-height: 60px;
+	max-height: 80px;
 	overflow-y: auto;
+	/* float: left; */
 }
