@@ -27,3 +27,20 @@
 	overflow-y: auto;
 	/* float: left; */
 }
+.year_header {
+	color: black;
+	font-weight: bold;
+	text-align: -webkit-center
+}
+.milestone_opened {
+	color: black;
+	font-weight: bold;
+}
+.milestone_closed {
+	color: red;
+	font-weight: bold;
+}
+.milestone_legislative {
+	color: green;
+	font-weight: bold;
+}
