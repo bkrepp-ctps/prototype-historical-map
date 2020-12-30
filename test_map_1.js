@@ -62,17 +62,26 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	
 	// Clear the output area, and display the descriptive text for this year's milestones.
 	$('#output').html('');
-	var opened_this_year = _.filter(all_milestones, function(rec) { return rec.start_year === current_year; });
+	var opened_this_year = _.filter(all_milestones, function(rec) { 
+														return rec.start_year === current_year; });
 	var desc_text = '';
-	opened_this_year.forEach(function(layer) {
-		desc_text += '<p>' + layer.milestone + '</p>';
+	opened_this_year.forEach(function(rec) {
+		
+		console.log('open: ' + rec.milestone);
+		
+		desc_text += '<p>' + rec.milestone + '</p>';
 	});
-	var closed_this_year = _.filter(all_milestones, function(rec) { return rec.end_year === current_year; });
-	opened_this_year.forEach(function(layer) {
-		desc_text += '<p>' + layer.milestone + '</p>';
+	var closed_this_year = _.filter(all_milestones, function(rec) { 
+														return rec.end_year === current_year; });
+	closed_this_year.forEach(function(rec) {
+		
+		console.log('closed: ' + rec.milestone);
+		
+		desc_text += '<p>' + rec.milestone + '</p>';
 	});
 	
 	var prefix = '<h3>' + current_year + '</h3>';
+	prefix += 'Hello, world!';
 	$('#output').html(prefix + desc_text);
 } // sliderHandler()
 
@@ -124,7 +133,7 @@ function initialize() {
 		start_year: +d.start_year,
 		end_year: 	+d.end_year,
 		type:		d.type,
-		event:		d.milestone
+		milestone:	d.milestone
 	  };
 	}).then(function(data) {
 		all_records = data;	// Temp, for debuggin
