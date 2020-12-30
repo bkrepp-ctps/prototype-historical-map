@@ -78,6 +78,7 @@ MCRT-1875-1979,Central Massachusetts railroad (Cambridge–Northampton),1875,1979,
 Lakeside_railroad-1886-1964,Eastern railroad (Marblehead),1886,1961,r
 Stoughton-CR-1888,Stoughton commuter rail Line,1888,9999,r
 Green_Line-1889,First Electric Street Railway Line In Boston,1889,9999,t
+Green_Line-A-Line-1889-1967,Green Line Watertown Branch (A Line),1889,1967,t
 NULL,Massachusetts Highway Commission,1894,1919,l
 NULL,North Station,1894,9999,r
 Green_Line-1897,"Green Line (Boylston–Park Street), “First U.S. subway”",1897,9999,t
@@ -86,12 +87,14 @@ NULL,South Station,1899,9999,r
 Orange_Line-1901-1987,Orange Line (Chinatown–Dudley Square),1901,1987,t
 Atlantic_Elevated-1901-1938,Atlantic Avenue Elevated,1901,1938,t
 Orange_Line-Downtown-1901,Orange Line (Sullivan Square–Chinatown),1901,9999,t
+NULL,Tremont Street Subway,1901,1908,t
 Blue_Line-GC-Maverick-1904,Blue Line (Government Center–Maverick) “First subaqueous tunnel”,1904,9999,t
 Needham-CR-1906,Needham commuter rail line (West Roxbury–Needham Junction),1906,9999,t
 Needham-CR-1907,Needham commuter rail line (Needham Junction–Needham Heights),1907,9999,t
 Orange_Line-1908-1987,Orange Line (Dudley–Forest Hills),1908,1987,t
 Green_Line-1912,Green Line (North Station–Lechmere),1912,9999,t
 Red_Line-1912,Red Line (Park Street–Harvard),1912,9999,t
+NULL,Elevated Green Line North Station Stop,1912,2004,t
 Green_Line-1914,Green Line (Boyston–Kenmore),1914,9999,t
 Red_Line-1915,Red Line (Park Street–Downtown commuter rail crossing),1915,9999,t
 Blue_Line-Bowdoin-1916,Blue Line (Government Center–Bowdoin),1916,9999,t
@@ -104,10 +107,12 @@ Logan-Airport-1923,Boston Airport,1923,9999,a
 Red_Line-1927,Red Line (Andrew–Fields Corner),1927,9999,t
 Red_Line-1928,Red Line (Fields Corner–Ashmont),1928,9999,t
 Red_Line-1929,Red Line (Mattapan High Speed Line),1929,9999,t
+NULL,Stadium Station Red Line,1930,1983,t
 Sumner-Tunnel-1934,Sumner Tunnel,1934,9999,h
 NULL,First Trackless Trolley (Harvard Square–Lechmere),1936,1963,t
 Hanscom-AFB-1943,Hanscom Air Force Base,1941,9999,a
 Green_Line-1941,Green Line (Copley–Symphony),1941,9999,t
+Green_Line_Huntington-1941-1985,Green Line Arborway (E Line),1941,1985,t
 NULL,Boston Airport renamed Logan Airport,1943,9999,a
 NULL,Metropolitan Transit Authority MTA),1947,1964,t
 Tobin-Bridge-1950,Tobin Bridge,1950,9999,h
@@ -151,6 +156,7 @@ NULL,Shining Sea Bike Path (Falmouth),1975,9999,b
 Orange_Line-1975,Orange Line Relocated (Haymarket–Sullivan),1975,9999,t
 Orange_Line-1975,Orange Line (Sullivan–Oak Grove),1975,9999,t
 Fairmount-CR-1979,Fairmount commuter rail line,1979,9999,r
+NULL,Harvard/Brattle Extension Red Line,1979,1983,t
 Red_Line-1980,"Red Line, (Quincy Center–Braintree)",1980,9999,t
 Red_Line-1984,Red Line (Harvard–Davis),1984,9999,t
 Red_Line-1985,Red Line (Davis–Alewife),1985,9999,t
@@ -174,6 +180,7 @@ SilverLine-Washington_St-2002,Silver Line Washington Street,2002,9999,t
 Neponset_River_Greenway-2003,Neponset River Greenway (Boston),2003,9999,b
 NULL,Depressed I-93 North and I-90 Connector,2003,9999,h
 SilverLine-Waterfront-2003,Silver Line Waterfront,2003,9999,t
+NULL,Sliver Line to City Point (original SL3),2004,2009,t
 Blackstone_Bikeway-2005,Blackstone Bikeway (Millville–Uxbridge),2005,9999,b
 NULL,Depressed I-93 South,2005,9999,h
 NULL,North Station Superstation,2005,9999,r
