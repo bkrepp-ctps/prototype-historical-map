@@ -36,11 +36,18 @@ def generate_html(in_svg_fn, out_html_fn):
 	# The SVG from Ken
 	out_html_fp.write(svg_data)
 	
-	# The concluding material
+	# The concluding material:
+	# End of SVG container div
 	out_html_fp.write('</div> <!-- svg_container -->\n')
+	# Div for slider control
 	out_html_fp.write('<div id="slider-vertical">\n')
 	out_html_fp.write('</div>\n')
+	# Div for text output pane
+	out_html_fp.write('<div id="output">\n')
+	out_html_fp.write('</div>\n')
+	# End of outer container div
 	out_html_fp.write('</div> <!-- outer_container -->\n')
+	# Script tag for app code, end of body and html tags
 	out_html_fp.write('<script src="test_map_1.js"></script>\n')
 	out_html_fp.write('</body>\n')
 	out_html_fp.write('</html>\n')
@@ -49,6 +56,6 @@ def generate_html(in_svg_fn, out_html_fn):
 # end_def generate_html()
 
 home_dir = r'C:/Users/ben_k/work_stuff/prototype-historical-map/'
-in_svg = home_dir + 'svg/Timeline_Base_Map-Master-Inline-Style-01.svg'
+in_svg = home_dir + 'svg/Timeline_Base_Map-Master-Inline-Style.svg'
 out_html = home_dir + 'test_map_1.html'
 
