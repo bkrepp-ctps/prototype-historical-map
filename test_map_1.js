@@ -6,7 +6,7 @@
 		https://github.com/leongersen/noUiSlider
 
 	-- B. Krepp, attending metaphysician
-	   10, 11, 14-17, 29 December 2020
+	   10, 11, 14-17, 29-31 December 2020
 */
 
 var verticalSlider = document.getElementById('slider-vertical');
