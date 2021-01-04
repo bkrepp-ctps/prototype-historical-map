@@ -17,30 +17,36 @@
 	margin-right: 75px;
 }
 #output {
-	width: 800px;
+	height: 726px;
+	width: 400px;
 	border-style: solid;
 	border-width: 1px;
-	border-color: steelblue;
-	margin-top: 10px;
-	min-height: 40px;
-	max-height: 80px;
-	overflow-y: auto;
-	/* float: left; */
+	border-color: white;
+	float: left;
+	font-family: sans-serif;
+	/* margin-top: 10px; */
+	/* min-height: 40px; */
+	/* max-height: 80px; */
+	/* overflow-y: auto; */
 }
 .year_header {
 	color: black;
+	font-size: 24px;
 	font-weight: bold;
-	text-align: -webkit-center
+	text-align: -webkit-center;
 }
 .milestone_opened {
 	color: black;
+	font-size: 18px;
 	font-weight: bold;
 }
 .milestone_closed {
 	color: red;
+	font-size: 18px;
 	font-weight: bold;
 }
 .milestone_legislative {
 	color: green;
+	font-size: 18px;
 	font-weight: bold;
 }
