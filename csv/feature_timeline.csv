@@ -23,157 +23,157 @@ NULL,Taunton-Providence Turnpike (Route 44),1826,1849,h
 NULL,First Railroad in U.S. (Quincy Granite Railway),1826,1871,r
 Route-2-East-1829,"Cambridge-Concord Turnpike (Route 2 east of Concord), made public highway",1829,9999,h
 Route-2-West-1830,"Union Turnpike (Route 2 west of Concord), made public highway",1830,9999,h
-Framingham-CR-1834,Worcester commuter rail line (Boston–Framingham),1834,9999,r
+Framingham-CR-1834,Worcester commuter rail line (Boston-Framingham),1834,9999,r
 Providence-CR-1834,Providence commuter rail Line (Providence-Boston),1834,9999,r
-Lowell-CR-1835,Lowell commuter rail line (Lowell–Boston),1835,9999,r
-Haverhill-CR-1837,Haverhill commuter rail line (Wilmington–Bradford),1837,9999,r
+Lowell-CR-1835,Lowell commuter rail line (Lowell-Boston),1835,9999,r
+Haverhill-CR-1837,Haverhill commuter rail line (Wilmington-Bradford),1837,9999,r
 Route-109-1838,"Hartford-Dedham Turnpike (Route 109), made public highway",1838,9999,h
-Newburyport-CR-1838,Newburyport commuter rail line (East Boston–Salem),1838,9999,r
+Newburyport-CR-1838,Newburyport commuter rail line (East Boston-Salem),1838,9999,r
 Newburyport-CR-1839,Newburyport commuter rail line (Salem-Newburyport),1839,9999,r
 Newburyport-CR-1839-1976,Newburyport commuter rail line (Ipswich-Newburyport),1839,1976,r
-Fitchburg-CR-1843,Fitchburg commuter rail line (North Station–Waltham),1843,9999,r
-Woburn_Branch_railroad-1844-1961,Woburn Branch railroad (Wilmington–Winchester),1844,1961,r
-Fitchburg-CR-1844,Fitchburg commuter rail line (Waltham–Concord),1844,9999,r
-Lowell-Nashua_railroad-1844-1966,Boston & Maine Railroad (Lowell–Nashua),1844,1966,r
+Fitchburg-CR-1843,Fitchburg commuter rail line (North Station-Waltham),1843,9999,r
+Woburn_Branch_railroad-1844-1961,Woburn Branch railroad (Wilmington-Winchester),1844,1961,r
+Fitchburg-CR-1844,Fitchburg commuter rail line (Waltham-Concord),1844,9999,r
+Lowell-Nashua_railroad-1844-1966,Boston & Maine Railroad (Lowell-Nashua),1844,1966,r
 Route-9-1845,"Worcester Turnpike (Route 9), made public highway",1845,9999,h
-Fitchburg-CR-1845,Fitchburg commuter rail line (Concord–Fitchburg),1845,9999,r
-Old_Colony_RR-1845-1959,Old Colony railroad (Boston–Plymouth),1845,1959,r
-NULL,Old Colony railroad (Braintree–Middleborough),1846,1959,r
-Lowell-Lawrence_railroad-1846-1936,Boston & Maine Railroad (Lowell–Lawrence),1846,1936,r
-Hanover_Branch_railroad-1846-1941,Hanover Branch railroad (Rockland–Hanover),1846,1941,r
-Saxonville_Branch_railroad-1846-1943,Saxonville Branch railroad (Natick–Framingham),1846,1943,r
-Lexington_Branch_railroad-1846-1981,Lexington Branch railroad (Bedford–Cambridge),1846,1981,r
-Rockport-CR-1847,Rockport commuter rail line (Beverly Depot–Gloucester),1847,9999,r
-Old_Colony_Fall_River_railroad-1847-1863,Old Colony railroad (Norwood–Plainville),1847,1863,r
+Fitchburg-CR-1845,Fitchburg commuter rail line (Concord-Fitchburg),1845,9999,r
+Old_Colony_RR-1845-1959,Old Colony railroad (Boston-Plymouth),1845,1959,r
+NULL,Old Colony railroad (Braintree-Middleborough),1846,1959,r
+Lowell-Lawrence_railroad-1846-1936,Boston & Maine Railroad (Lowell-Lawrence),1846,1936,r
+Hanover_Branch_railroad-1846-1941,Hanover Branch railroad (Rockland-Hanover),1846,1941,r
+Saxonville_Branch_railroad-1846-1943,Saxonville Branch railroad (Natick-Framingham),1846,1943,r
+Lexington_Branch_railroad-1846-1981,Lexington Branch railroad (Bedford-Cambridge),1846,1981,r
+Rockport-CR-1847,Rockport commuter rail line (Beverly Depot-Gloucester),1847,9999,r
+Old_Colony_Fall_River_railroad-1847-1863,Old Colony railroad (Norwood-Plainville),1847,1863,r
 Providence_Worcester_railroad-1847-1960,Providence & Worcester railroad,1847,1960,r
 Watertown_Branch_railroad-1847-1960,Watertown Branch railroad (Watertown),1847,1960,r
-CSX_railroad-1847-1980,CSX railroad (Framingham–Milford),1847,1980,r
+CSX_railroad-1847-1980,CSX railroad (Framingham-Milford),1847,1980,r
 Milford_Branch_railroad-1847-1980,Milford Branch railroad (Milford),1847,1980,r
-Essex_railroad-1847-1985,Essex railroad (Danvers–Lawrence),1847,1985,r
-Stoney_Brook_railroad-1848-1861,Stony Brook railroad (Ayer–Lowell),1848,1861,r
-Milford_Secondary_railroad-1848-1972,Milford Secondary railroad (Milford–Franklin),1848,1972,r
+Essex_railroad-1847-1985,Essex railroad (Danvers-Lawrence),1847,1985,r
+Stoney_Brook_railroad-1848-1861,Stony Brook railroad (Ayer-Lowell),1848,1861,r
+Milford_Secondary_railroad-1848-1972,Milford Secondary railroad (Milford-Franklin),1848,1972,r
 Worcester-Nashua_railroad-1848-1981,Worcester Nashua railroad,1848,1981,r
 Greenville_railroad-1848-2011,Boston & Maine railroad (Greenville Branch),1848,2011,r
-Franklin-CR-1849,Franklin commuter rail line (Dedham–Franklin),1849,9999,r
+Franklin-CR-1849,Franklin commuter rail line (Dedham-Franklin),1849,9999,r
 Manchester_Lawrence_railroad-1849-1992,Manchester Lawrence railroad,1849,1992,r
-Needham-CR-1850,Needham commuter rail line (Forest Hills–West Roxbury),1850,9999,r
-Fitchburg_Rail-1850-1980,Fitchburg railroad (Marlboro–Acton),1850,1980,r
+Needham-CR-1850,Needham commuter rail line (Forest Hills-West Roxbury),1850,9999,r
+Fitchburg_Rail-1850-1980,Fitchburg railroad (Marlboro-Acton),1850,1980,r
 Grand_Jct_railroad-1849,Grand Junction (Cambridge),1850,9999,r
-Fitchburg_Secondary_railroad-1850,Fitchburg Secondary railroad (Framingham–Fitchburg),1850,1993,r
+Fitchburg_Secondary_railroad-1850,Fitchburg Secondary railroad (Framingham-Fitchburg),1850,1993,r
 Salem-Lowell_railroad-1850-1987,Salem Lowel railroad,1850,1987,r
-Charles_River_railroad-1853-1927,Charles River Line (Needham–Newton),1853,1927,r
-Saugus_Branch-railroad-1853-1958,Saugus Branch railroad (Everett–Lynn),1853,1958,r
-Newburyport_railroad-1855-1981,Newburyport railroad (Wakefield–Newburyport),1855,1981,r
-NULL,Cambridge Horse railroad (Havard Square–Bowdoin Square),1856,1912,r
+Charles_River_railroad-1853-1927,Charles River Line (Needham-Newton),1853,1927,r
+Saugus_Branch-railroad-1853-1958,Saugus Branch railroad (Everett-Lynn),1853,1958,r
+Newburyport_railroad-1855-1981,Newburyport railroad (Wakefield-Newburyport),1855,1981,r
+NULL,Cambridge Horse railroad (Havard Square-Bowdoin Square),1856,1912,r
 Route-1-South-1857,"Norfolk-Bristol Turnpike (Route 1 south of Boston), made public highway",1857,9999,h
-Rockport-CR-1861,Rockport commuter rail line (Gloucester–Rockport),1861,9999,r
-Millis_Branch-1861-1976,Millis Branch railroad (Needham–Medway),1861,1976,r
-Framingham_Secondary_railroad-1867-1993,Framingham Secondary railroad (Framingham–Taunton),1867,1993,r
+Rockport-CR-1861,Rockport commuter rail line (Gloucester-Rockport),1861,9999,r
+Millis_Branch-1861-1976,Millis Branch railroad (Needham-Medway),1861,1976,r
+Framingham_Secondary_railroad-1867-1993,Framingham Secondary railroad (Framingham-Taunton),1867,1993,r
 Route-107-1868,"Salem Turnpike (Route 107), made public highway",1868,9999,h
-Framingham_Lowell_railroad-1871-2001,Framingham Lowell railroad (Framingham–Lowell),1871,2001,r
-Grafton_Upton_railroad-1873-1993,Grafton Upton railroad (Grafton–Milford),1873,1993,r
-The_Air_Line-1873-1924,"The AIR Line (Franklin–NewHaven, CT)",1873,1924,r
-Lowell_Andover_railroad-1874-1920,Lowell Andover railroad (Lowell–Andover),1874,1920,r
-MCRT-1875-1979,Central Massachusetts railroad (Cambridge–Northampton),1875,1979,r
+Framingham_Lowell_railroad-1871-2001,Framingham Lowell railroad (Framingham-Lowell),1871,2001,r
+Grafton_Upton_railroad-1873-1993,Grafton Upton railroad (Grafton-Milford),1873,1993,r
+The_Air_Line-1873-1924,"The AIR Line (Franklin-NewHaven, CT)",1873,1924,r
+Lowell_Andover_railroad-1874-1920,Lowell Andover railroad (Lowell-Andover),1874,1920,r
+MCRT-1875-1979,Central Massachusetts railroad (Cambridge-Northampton),1875,1979,r
 Lakeside_railroad-1886-1964,Eastern railroad (Marblehead),1886,1961,r
 Stoughton-CR-1888,Stoughton commuter rail Line,1888,9999,r
 Green_Line-1889,First Electric Street Railway Line In Boston,1889,9999,t
 Green_Line-A-Line-1889-1967,Green Line Watertown Branch (A Line),1889,1967,t
 NULL,Massachusetts Highway Commission,1894,1919,l
 NULL,North Station,1894,9999,r
-Green_Line-1897,"Green Line (Boylston–Park Street), “First U.S. subway”",1897,9999,t
-Green_Line-1898,Green Line (Park Street–North Station),1898,9999,t
+Green_Line-1897,"Green Line (Boylston-Park Street), 'First U.S. subway'",1897,9999,t
+Green_Line-1898,Green Line (Park Street-North Station),1898,9999,t
 NULL,South Station,1899,9999,r
-Orange_Line-1901-1987,Orange Line (Chinatown–Dudley Square),1901,1987,t
+Orange_Line-1901-1987,Orange Line (Chinatown-Dudley Square),1901,1987,t
 Atlantic_Elevated-1901-1938,Atlantic Avenue Elevated,1901,1938,t
-Orange_Line-Downtown-1901,Orange Line (Sullivan Square–Chinatown),1901,9999,t
+Orange_Line-Downtown-1901,Orange Line (Sullivan Square-Chinatown),1901,9999,t
 NULL,Tremont Street Subway,1901,1908,t
-Blue_Line-GC-Maverick-1904,Blue Line (Government Center–Maverick) “First subaqueous tunnel”,1904,9999,t
-Needham-CR-1906,Needham commuter rail line (West Roxbury–Needham Junction),1906,9999,t
-Needham-CR-1907,Needham commuter rail line (Needham Junction–Needham Heights),1907,9999,t
-Orange_Line-1908-1987,Orange Line (Dudley–Forest Hills),1908,1987,t
-Green_Line-1912,Green Line (North Station–Lechmere),1912,9999,t
-Red_Line-1912,Red Line (Park Street–Harvard),1912,9999,t
+Blue_Line-GC-Maverick-1904,Blue Line (Government Center-Maverick) 'First subaqueous tunnel',1904,9999,t
+Needham-CR-1906,Needham commuter rail line (West Roxbury-Needham Junction),1906,9999,t
+Needham-CR-1907,Needham commuter rail line (Needham Junction-Needham Heights),1907,9999,t
+Orange_Line-1908-1987,Orange Line (Dudley-Forest Hills),1908,1987,t
+Green_Line-1912,Green Line (North Station-Lechmere),1912,9999,t
+Red_Line-1912,Red Line (Park Street-Harvard),1912,9999,t
 NULL,Elevated Green Line North Station Stop,1912,2004,t
-Green_Line-1914,Green Line (Boyston–Kenmore),1914,9999,t
-Red_Line-1915,Red Line (Park Street–Downtown commuter rail crossing),1915,9999,t
-Blue_Line-Bowdoin-1916,Blue Line (Government Center–Bowdoin),1916,9999,t
-Red_Line-1917,Red Line (Downtown commuter rail crossing–South Station),1917,9999,t
-Red_Line-1918,Red Line (South Station–Andrew),1918,9999,t
+Green_Line-1914,Green Line (Boyston-Kenmore),1914,9999,t
+Red_Line-1915,Red Line (Park Street-Downtown commuter rail crossing),1915,9999,t
+Blue_Line-Bowdoin-1916,Blue Line (Government Center-Bowdoin),1916,9999,t
+Red_Line-1917,Red Line (Downtown commuter rail crossing-South Station),1917,9999,t
+Red_Line-1918,Red Line (South Station-Andrew),1918,9999,t
 NULL,Massachusetts Department of Public Works (DPW),1919,2009,l
-Orange_Line-1919-1975,Orange Line (Sullivan–Everett),1919,1975,t
+Orange_Line-1919-1975,Orange Line (Sullivan-Everett),1919,1975,t
 NULL,First Bus Line in Boston Transit System,1922,9999,t
 Logan-Airport-1923,Boston Airport,1923,9999,a
-Red_Line-1927,Red Line (Andrew–Fields Corner),1927,9999,t
-Red_Line-1928,Red Line (Fields Corner–Ashmont),1928,9999,t
+Red_Line-1927,Red Line (Andrew-Fields Corner),1927,9999,t
+Red_Line-1928,Red Line (Fields Corner-Ashmont),1928,9999,t
 Red_Line-1929,Red Line (Mattapan High Speed Line),1929,9999,t
 NULL,Stadium Station Red Line,1930,1983,t
 Sumner-Tunnel-1934,Sumner Tunnel,1934,9999,h
-NULL,First Trackless Trolley (Harvard Square–Lechmere),1936,1963,t
+NULL,First Trackless Trolley (Harvard Square-Lechmere),1936,1963,t
 Hanscom-AFB-1943,Hanscom Air Force Base,1941,9999,a
-Green_Line-1941,Green Line (Copley–Symphony),1941,9999,t
+Green_Line-1941,Green Line (Copley-Symphony),1941,9999,t
 Green_Line_Huntington-1941-1985,Green Line Arborway (E Line),1941,1985,t
 NULL,Boston Airport renamed Logan Airport,1943,9999,a
 NULL,Metropolitan Transit Authority MTA),1947,1964,t
 Tobin-Bridge-1950,Tobin Bridge,1950,9999,h
-Route-128-1951,Route 128 (I-95–I-93–Route 3–Route 2–Route 9),1951,9999,h
+Route-128-1951,Route 128 (I-95-I-93-Route 3-Route 2-Route 9),1951,9999,h
 Route-146-1952,Route 146,1952,9999,h
 NULL,Massachusetts Turnpike Authority,1952,2009,h
-Blue_Line-Maverick-OH-1952,Blue Line (Maverick–Orient Heights),1952,9999,t
-I93-Fort-Hill-Tobin-Bridge-1954,Interstate 93 (Tobin Bridge–Fort Hill),1954,9999,h
-Route-3-North-1954,Route 3 (I-495–Route 128),1954,9999,h
-Blue_Line-OH-Wonderland-1954,Blue Line (Orient Heights–Wonderland),1954,9999,t
-I95-1955,Interstate 95 (Route 128–I-495–NH Border),1955,9999,h
+Blue_Line-Maverick-OH-1952,Blue Line (Maverick-Orient Heights),1952,9999,t
+I93-Fort-Hill-Tobin-Bridge-1954,Interstate 93 (Tobin Bridge-Fort Hill),1954,9999,h
+Route-3-North-1954,Route 3 (I-495-Route 128),1954,9999,h
+Blue_Line-OH-Wonderland-1954,Blue Line (Orient Heights-Wonderland),1954,9999,t
+I95-1955,Interstate 95 (Route 128-I-495-NH Border),1955,9999,h
 NULL,Federal Highway Interstate Program Enacted,1956,9999,l
 NULL,Massachusetts Turnpike Authority-Toll Booths,1957,2016,h
-Route-3-Boston-Norwell-1957,"Route 3 (I-93–Norwell), opened 1957",1957,9999,h
-I90-West-1957,Interstate 90 (Worcester–I-495–Route 128),1957,9999,h
-I93-I95-Fort-Hill-1958,Interstate 93 (Fort Hill–SE Expressway),1958,9999,h
-I-93_SE_Expressway_Rt.3_Rt.24_I-95,Interstate 93 (SE Expressway–Route 3–Route 24–I-95),1958,9999,h
-Route-24-1958,Route 24 (I-495–Route 128),1958,9999,h
+Route-3-Boston-Norwell-1957,"Route 3 (I-93-Norwell), opened 1957",1957,9999,h
+I90-West-1957,Interstate 90 (Worcester-I-495-Route 128),1957,9999,h
+I93-I95-Fort-Hill-1958,Interstate 93 (Fort Hill-SE Expressway),1958,9999,h
+I-93_SE_Expressway_Rt.3_Rt.24_I-95,Interstate 93 (SE Expressway-Route 3-Route 24-I-95),1958,9999,h
+Route-24-1958,Route 24 (I-495-Route 128),1958,9999,h
 NULL,Central Artery,1959,2004,h
 NULL,Southeast Expressway,1959,9999,h
-Green_Line-1959,Green Line (Kenmore–Riverside),1959,9999,t
-Route-3-Norwell-Bourne-1961,Route 3 (Norwell–Sagamore Bridge),1961,9999,h
+Green_Line-1959,Green Line (Kenmore-Riverside),1959,9999,t
+Route-3-Norwell-Bourne-1961,Route 3 (Norwell-Sagamore Bridge),1961,9999,h
 Callahan-Tunnel-1962,Callahan Tunnel,1962,9999,h
-I495-Rt2-Rt3-1962,Interstate 495 (Route 3–Route 2),1962,9999,h
+I495-Rt2-Rt3-1962,Interstate 495 (Route 3-Route 2),1962,9999,h
 Lowell-Connector-1962,Lowell Connector,1962,9999,h
-I495-Rt2-I90-1963,Interstate 495 (Route 2–I-90),1963,9999,h
-I90-East-1964,Interstate 90 (Route 128–Allston),1964,9999,h
-I93-I95-NH,Interstate 93 (New Hampshire border–I-95),1964,9999,h
+I495-Rt2-I90-1963,Interstate 495 (Route 2-I-90),1963,9999,h
+I90-East-1964,Interstate 90 (Route 128-Allston),1964,9999,h
+I93-I95-NH,Interstate 93 (New Hampshire border-I-95),1964,9999,h
 NULL,Massachusetts Bay Transportation Authority Established (MBTA),1964,9999,t
-I90-Downtown-1965,Interstate 90 (Allston–Downtown Boston),1965,9999,h
-I95-1955,Interstate 95 (RI border–I-495–Route 128),1965,9999,h
-Route-2-Alewife-1965,Route 2 (Route 128–Alewife),1965,9999,h
-I495-I90-I95-1966,Interstate 495 (I-90–I-95),1966,9999,h
+I90-Downtown-1965,Interstate 90 (Allston-Downtown Boston),1965,9999,h
+I95-1955,Interstate 95 (RI border-I-495-Route 128),1965,9999,h
+Route-2-Alewife-1965,Route 2 (Route 128-Alewife),1965,9999,h
+I495-I90-I95-1966,Interstate 495 (I-90-I-95),1966,9999,h
 I495-complete-1969,Rest of Interstate 495 completed,1969,9999,h
 I290-1970,Interstate 290,1970,9999,h
-Red_Line-1971,Red Line (JFK–Quincy Center),1971,9999,t
-I93-Tobin-128-1973,Interstate 93 (Medford–Tobin Bridge),1973,9999,h
+Red_Line-1971,Red Line (JFK-Quincy Center),1971,9999,t
+I93-Tobin-128-1973,Interstate 93 (Medford-Tobin Bridge),1973,9999,h
 NULL,Massport takes control of  Hanscom Field,1974,9999,l
 Dudley-White-Bike-Path-1975,"Dr. Paul Dudley White Bike Path (Boston, Newton, Waltham)",1975,9999,b
 NULL,Shining Sea Bike Path (Falmouth),1975,9999,b
-Orange_Line-1975,Orange Line Relocated (Haymarket–Sullivan),1975,9999,t
-Orange_Line-1975,Orange Line (Sullivan–Oak Grove),1975,9999,t
+Orange_Line-1975,Orange Line Relocated (Haymarket-Sullivan),1975,9999,t
+Orange_Line-1975,Orange Line (Sullivan-Oak Grove),1975,9999,t
 Fairmount-CR-1979,Fairmount commuter rail line,1979,9999,r
 NULL,Harvard/Brattle Extension Red Line,1979,1983,t
-Red_Line-1980,"Red Line, (Quincy Center–Braintree)",1980,9999,t
-Red_Line-1984,Red Line (Harvard–Davis),1984,9999,t
-Red_Line-1985,Red Line (Davis–Alewife),1985,9999,t
+Red_Line-1980,"Red Line, (Quincy Center-Braintree)",1980,9999,t
+Red_Line-1984,Red Line (Harvard-Davis),1984,9999,t
+Red_Line-1985,Red Line (Davis-Alewife),1985,9999,t
 Pierre_Lallement_Bike_Path-1987,Pierre Lallement Bike Path (Boston),1987,9999,b
-Orange_Line-1987,Relocated Orange Line (Chinatown–Forest Hills),1987,9999,t
+Orange_Line-1987,Relocated Orange Line (Chinatown-Forest Hills),1987,9999,t
 Minuteman-Bike-Path-1992,"Minuteman Commuter Bikeway (Arlington, Lexington, Bedford)",1992,9999,b
 Narrow-Gauge-Trail-1992,Narrow Gauge Rail Trail (Bedford),1992,9999,b
 NULL,South Boston Bypass Road,1993,9999,h
 NULL,I-93 HOV lane,1994,9999,h
-Worcester-CR-1994,Worcester commuter rail line (Framingham–Worcester),1994,9999,r
+Worcester-CR-1994,Worcester commuter rail line (Framingham-Worcester),1994,9999,r
 NULL,SE Expressway HOV lane,1995,9999,h
 Ted-Williams-Tunnel-1995,Ted Williams Tunnel,1995,9999,h
 NULL,South Station Bus Terminal,1995,9999,t
 Old_Colony_RR-1997,Old Colony commuter rail line (Kingston/Plymouth),1997,9999,r
 NULL,Phoenix Bikeway (Fairhaven),1998,9999,b
 Old_Colony_RR-1998,Old Colony commuter rail line (Middleborough/Lakeville),1998,9999,r
-Newburyport-CR-1999,Newburyport commuter rail line (Ipswich–Newburyport),1999,9999,r
+Newburyport-CR-1999,Newburyport commuter rail line (Ipswich-Newburyport),1999,9999,r
 Nashua_RIver_Trail-2002,Nashua River Rail Trail (Ayer),2002,9999,b
 NULL,Leonard P. Zakim Bridge,2002,9999,h
 SilverLine-Washington_St-2002,Silver Line Washington Street,2002,9999,t
@@ -181,10 +181,10 @@ Neponset_River_Greenway-2003,Neponset River Greenway (Boston),2003,9999,b
 NULL,Depressed I-93 North and I-90 Connector,2003,9999,h
 SilverLine-Waterfront-2003,Silver Line Waterfront,2003,9999,t
 NULL,Sliver Line to City Point (original SL3),2004,2009,t
-Blackstone_Bikeway-2005,Blackstone Bikeway (Millville–Uxbridge),2005,9999,b
+Blackstone_Bikeway-2005,Blackstone Bikeway (Millville-Uxbridge),2005,9999,b
 NULL,Depressed I-93 South,2005,9999,h
 NULL,North Station Superstation,2005,9999,r
-Assabett_Rail_Trail-2006,"Assabet River Rail Trail (Marlboro–Hudson, Maynard–Acton)",2006,9999,b
+Assabett_Rail_Trail-2006,"Assabet River Rail Trail (Marlboro-Hudson, Maynard-Acton)",2006,9999,b
 East_Boston_Greenway-2007,East Boston Greenway,2007,9999,b
 Greenbush-CR-2007,Greenbush Commuter Rail,2007,9999,r
 Independence_Greenway-2009,Independence Greenway (Peabody),2008,9999,b
@@ -201,7 +201,7 @@ NULL,Orange Line (Assembly Station),2014,9999,t
 Cochituate_Trail-2015,Cochituate Rail Trail (Framingham),2015,9999,b
 Upper_Charles_Rail_Trail-2015,"Upper Charles Rail Trail (Milford, Holliston)",2015,9999,b
 Watertown_Greenway-2015,Watertown Greenway (Watertown),2015,9999,b
-NULL,Fitchburg commuter rail line (Fitchburg–Wachusett),2016,9999,r
+NULL,Fitchburg commuter rail line (Fitchburg-Wachusett),2016,9999,r
 NULL,Worcester commuter rail line (Boston Landing Station),2017,9999,r
 Rockland_Rail_Trail-2018,Rockland Rail Trail,2018,9999,b
 Bruce_Freeman-2-2018,"Bruce Freeman Rail Trail Phase 2A (Westford, Carlise, Acton)",2018,9999,b
