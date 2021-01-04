@@ -63,22 +63,25 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	// Clear the output area, and display the descriptive text for this year's milestones.
 	$('#output').html('');
 	var opened_this_year = _.filter(all_milestones, function(rec) { return rec.start_year === current_year; });
-	var desc_text = '';
-	opened_this_year.forEach(function(rec) {
-		// console.log('open: ' + rec.milestone);
-		if (rec.type == 'l') {
-			desc_text += '<span class="milestone_legislative">';
-		} else {
-			desc_text += '<span class="milestone_opened">';
-		}
-		desc_text += rec.milestone + '</span><br/>';
-	});
 	var closed_this_year = _.filter(all_milestones, function(rec) { return rec.end_year === current_year; });
-	closed_this_year.forEach(function(rec) {
-		// console.log('closed: ' + rec.milestone);
-		desc_text += '<span class="milestone_closed">' + rec.milestone +  '</span><br/>';
-	});
-	
+	var desc_text = '';
+	if (opened_this_year.length !== 0 || closed_this_year.length !== 0) {
+		desc_text += '<ul>';
+		opened_this_year.forEach(function(rec) {
+			// console.log('open: ' + rec.milestone);
+			if (rec.type == 'l') {
+				desc_text += '<li class="milestone_legislative">';
+			} else {
+				desc_text += '<li class="milestone_opened">';
+			}
+			desc_text += rec.milestone + '</li>';
+		});
+		closed_this_year.forEach(function(rec) {
+			// console.log('closed: ' + rec.milestone);
+			desc_text += '<li class="milestone_closed">' + rec.milestone +  '</li>';
+		});
+		desc_text += '</ul>';
+	}
 	var prefix = '<div class="year_header">' + current_year + '</div>';
 	$('#output').html(prefix + desc_text);
 } // sliderHandler()
