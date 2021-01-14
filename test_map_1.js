@@ -87,12 +87,7 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 } // sliderHandler()
 
 function initialize() {
-	// Enable panning/zooming of SVG map
-	var svg = d3.select("svg").call(d3.zoom().on("zoom", function (e, d) {
-              svg.attr("transform", e.transform);
-      }));
-	
-	
+	// Enable slider control
 	// 'to' and 'from' formatter functions, *both* of which are required 
 	//  by the noUiSlider control, even if only one is used.
 	//
