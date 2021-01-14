@@ -30,6 +30,17 @@ def generate_html(in_svg_fn, out_html_fn):
 	out_html_fp.write('<script src="libs/d3.min.js"></script>\n')
 	out_html_fp.write('</head>\n')
 	out_html_fp.write('<body>\n')
+	# Start of matieral for CTPS "branding"
+	out_html_fp.write('<div class="ctpsHeader">\n')
+	out_html_fp.write('<div class="lightBlue"></div>\n')
+	out_html_fp.write('<div class="darkBlue"></div>\n')
+	out_html_fp.write('<div id="banner">\n')
+	out_html_fp.write('<a href="https://www.ctps.org/" target="_blank" title="Boston MPO">\n')
+	out_html_fp.write('<img style="height:59px" src="img/ctps_header.png" title="Opens Boston MPO website in a new window">\n')
+	out_html_fp.write('</a>\n')
+	out_html_fp.write('</div>\n')
+	out_html_fp.write('</div>\n')
+	# End of material for CTPS "branding"
 	out_html_fp.write('<div id="outer_container">\n')
 	out_html_fp.write('<div id="svg_container">\n')
 	
