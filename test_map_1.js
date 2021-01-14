@@ -17,6 +17,16 @@ var all_records = [],			// All records in CSV file
 	toggleable_layers = [];		// Toggle-able layers in SVG map
 	
 var debugFlag = false;
+
+// TEMP FOR WORK-AROUND - this code may be removed
+//
+// Layer names that have periods in them are problematical.
+// jQuery regards a period as a "special character" in a query string.
+// If a _literal_ period is required, it must be preceeded by TWO backslashes.
+function make_query_string(layer_name) {
+	var retval = '#' + layer_name.replaceAll('.', '\\\\.');
+	return retval;
+}
 	
 // Event handler for slider 'update' event
 function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
@@ -49,7 +59,7 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 		// var txt = layer.desc;
 		// $('#output').html(txt);
 	});
-	
+
 	// Turn off all toggleable layers whose 
 	// start_year is > current_year OR whose end_year <= current_year.
 	var to_hide = _.filter(toggleable_layers, function(rec) { 
@@ -87,7 +97,6 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 } // sliderHandler()
 
 function initialize() {
-	// Enable slider control
 	// 'to' and 'from' formatter functions, *both* of which are required 
 	//  by the noUiSlider control, even if only one is used.
 	//
@@ -138,13 +147,14 @@ function initialize() {
 		milestone:	d.milestone
 	  };
 	}).then(function(data) {
-		all_records = data;	// Temp, for debuggin
+		all_records = data;	// Temp, for debugging
 		all_milestones = _.filter(data, function(rec) { return rec.type !== 'z'; });
 		all_layers = _.filter(data, function(rec) { return rec.layer_name !== 'NULL'; });
 		toggleable_layers = _.filter(all_layers, function(rec) { return rec.type !== 'z'; });
 		// Hide all toggleable layers at initialization
 		toggleable_layers.forEach(function(layer) { 
-			var query_str = '#' + layer.layer_name;
+			var query_str = make_query_string(layer.layer_name);
+			console.log(query_str);
 			$(query_str).hide();
 		});
 	});
