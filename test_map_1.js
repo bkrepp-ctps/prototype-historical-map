@@ -7,6 +7,7 @@
 
 	-- B. Krepp, attending metaphysician
 	   10, 11, 14-17, 29-31 December 2020
+	   4, 14-15 January 2021
 */
 
 var verticalSlider = document.getElementById('slider-vertical');
@@ -62,23 +63,41 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	
 	// Clear the output area, and display the descriptive text for this year's milestones.
 	$('#output').html('');
-	var opened_this_year = _.filter(all_milestones, function(rec) { return rec.start_year === current_year; });
+	
+	// N.B. "Legislative" milestones are a subset of "opening" milestones, cull these into two distinct lists.
+	var opened_this_year = _.filter(all_milestones, 
+									function(rec) { 
+										return rec.start_year === current_year & rec.type !== 'l'; });
+	var legislative_this_year = _.filter(all_milestones, 
+	                                     function(rec) { 
+											return rec.start_year === current_year & rec.type === 'l'; });
 	var closed_this_year = _.filter(all_milestones, function(rec) { return rec.end_year === current_year; });
+	
 	var desc_text = '';
-	if (opened_this_year.length !== 0 || closed_this_year.length !== 0) {
+	if (opened_this_year.length !== 0) {
+		desc_text += '<h4 class="opened_list_caption">Opened:</h4>';
 		desc_text += '<ul>';
 		opened_this_year.forEach(function(rec) {
-			// console.log('open: ' + rec.milestone);
-			if (rec.type == 'l') {
-				desc_text += '<li class="milestone_legislative">';
-			} else {
-				desc_text += '<li class="milestone_opened">';
-			}
+			desc_text += '<li class="milestone_opened">';
 			desc_text += rec.milestone + '</li>';
 		});
+		desc_text += '</ul>';
+	}
+	if (closed_this_year.length !== 0) {
+		desc_text += '<h4 class="closed_list_caption">Closed:</h4>';
+		desc_text += '<ul>';
 		closed_this_year.forEach(function(rec) {
 			// console.log('closed: ' + rec.milestone);
 			desc_text += '<li class="milestone_closed">' + rec.milestone +  '</li>';
+		});
+		desc_text += '</ul>';
+	}
+	if (legislative_this_year.length !== 0) {
+		desc_text += '<h4 class="legislative_list_caption">Legislative events:</h4>';
+		desc_text += '<ul>';
+		legislative_this_year.forEach(function(rec) {
+			desc_text += '<li class="milestone_legislative">';
+			desc_text += rec.milestone + '</li>';
 		});
 		desc_text += '</ul>';
 	}

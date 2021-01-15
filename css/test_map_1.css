@@ -70,13 +70,28 @@
 	font-weight: bold;
 	text-align: -webkit-center;
 }
+.opened_list_caption {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
 .milestone_opened {
 	color: black;
 	font-size: 18px;
 	font-weight: bold;
 }
+.closed_list_caption {
+	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
 .milestone_closed {
 	color: red;
+	font-size: 18px;
+	font-weight: bold;
+}
+.legislative_list_caption {
+	color: green;
 	font-size: 18px;
 	font-weight: bold;
 }
