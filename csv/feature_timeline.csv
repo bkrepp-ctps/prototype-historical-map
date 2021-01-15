@@ -170,10 +170,10 @@ Worcester-CR-1994,Worcester commuter rail line (Framingham-Worcester),1994,9999,
 NULL,SE Expressway HOV lane,1995,9999,h,
 Ted-Williams-Tunnel-1995,Ted Williams Tunnel,1995,9999,h,
 NULL,South Station Bus Terminal,1995,9999,t,
-Old_Colony_RR-1997,Old Colony commuter rail line (Kingston/Plymouth),1997,9999,r,Y
+Old_Colony_RR-1997,Old Colony commuter rail line (Kingston/Plymouth),1997,9999,r,y
 NULL,Phoenix Bikeway (Fairhaven),1998,9999,b,
-Old_Colony_RR-1998,Old Colony commuter rail line (Middleborough/Lakeville),1998,9999,r,Y
-Newburyport-CR-1999,Newburyport commuter rail line (Ipswich-Newburyport),1999,9999,r,Y
+Old_Colony_RR-1998,Old Colony commuter rail line (Middleborough/Lakeville),1998,9999,r,y
+Newburyport-CR-1999,Newburyport commuter rail line (Ipswich-Newburyport),1999,9999,r,y
 Nashua_RIver_Trail-2002,Nashua River Rail Trail (Ayer),2002,9999,b,
 NULL,Leonard P. Zakim Bridge,2002,9999,h,
 SilverLine-Washington_St-2002,Silver Line Washington Street,2002,9999,t,
