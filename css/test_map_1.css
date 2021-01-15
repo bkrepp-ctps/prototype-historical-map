@@ -32,7 +32,7 @@
 }
 /* End of rules for CTPS "branding" */
 
-
+/* Begining of rules for the app itself. */
 #outer_container {
 	margin-top: 50px;
 }
@@ -100,3 +100,12 @@
 	font-size: 18px;
 	font-weight: bold;
 }
+
+/* Rules for elements of the vertical slider.*/
+/* The slider "bar": */
+#slider-vertical .noUi-base .noUi-connects {
+	background-color: #fe9929;
+}
+
+
+/* End of rules for the app itself. */
