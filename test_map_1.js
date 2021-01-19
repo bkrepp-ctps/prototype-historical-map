@@ -67,10 +67,13 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 	// N.B. "Legislative" milestones are a subset of "opening" milestones, cull these into two distinct lists.
 	var opened_this_year = _.filter(all_milestones, 
 									function(rec) { 
-										return rec.start_year === current_year & rec.type !== 'l'; });
+										return rec.start_year === current_year && rec.type !== 'l' && rec.reopening === 'n'; });
+	var reopened_this_year = _.filter(all_milestones, 
+									function(rec) { 
+										return rec.start_year === current_year && rec.type !== 'l' && rec.reopening === 'y'; });									
 	var legislative_this_year = _.filter(all_milestones, 
 	                                     function(rec) { 
-											return rec.start_year === current_year & rec.type === 'l'; });
+											return rec.start_year === current_year && rec.type === 'l'; });
 	var closed_this_year = _.filter(all_milestones, function(rec) { return rec.end_year === current_year; });
 	
 	var desc_text = '';
@@ -83,11 +86,19 @@ function sliderHandler(values, handle, unencoded, tap, positions, noUiSlider) {
 		});
 		desc_text += '</ul>';
 	}
+	if (reopened_this_year.length !== 0) {
+		desc_text += '<h4 class="reopened_list_caption">Reopened:</h4>';
+		desc_text += '<ul>';
+		reopened_this_year.forEach(function(rec) {
+			desc_text += '<li class="milestone_reopened">';
+			desc_text += rec.milestone + '</li>';
+		});
+		desc_text += '</ul>';
+	}
 	if (closed_this_year.length !== 0) {
 		desc_text += '<h4 class="closed_list_caption">Closed:</h4>';
 		desc_text += '<ul>';
 		closed_this_year.forEach(function(rec) {
-			// console.log('closed: ' + rec.milestone);
 			desc_text += '<li class="milestone_closed">' + rec.milestone +  '</li>';
 		});
 		desc_text += '</ul>';
@@ -153,6 +164,7 @@ function initialize() {
 		start_year: +d.start_year,
 		end_year: 	+d.end_year,
 		type:		d.type,
+		reopening:	(d.reopening === null || d.reopening === '') ? 'n' : d.reopening,
 		milestone:	d.milestone
 	  };
 	}).then(function(data) {
