@@ -80,23 +80,33 @@
 	font-size: 18px;
 	font-weight: bold;
 }
+.reopened_list_caption {
+	color: #009cdc;
+	font-size: 18px;
+	font-weight: bold;
+}
+.milestone_reopened {
+	color: #009cdc;
+	font-size: 18px;
+	font-weight: bold;
+}
 .closed_list_caption {
-	color: red;
+	color: #ef3e42;
 	font-size: 18px;
 	font-weight: bold;
 }
 .milestone_closed {
-	color: red;
+	color: #ef3e42;
 	font-size: 18px;
 	font-weight: bold;
 }
 .legislative_list_caption {
-	color: green;
+	color: #009b67;
 	font-size: 18px;
 	font-weight: bold;
 }
 .milestone_legislative {
-	color: green;
+	color: #009b67;
 	font-size: 18px;
 	font-weight: bold;
 }
