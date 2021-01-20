@@ -1,0 +1,133 @@
+* {
+	font-family:"Trebuchet MS","sans-serif";
+}
+
+/* Rules for CTPS "branding" */
+#banner{
+	position:relative;
+	height:100%;
+	left:2%;
+	top:-43px;
+	z-index:15;
+	border: none;
+}
+.pagetitle{
+    font-size: 17px;
+}
+.ctpsHeader{
+	height:59px;
+	background-color:white
+}
+.lightBlue{
+	height:27px;
+	width:100%;
+	background-color:#7DA1C4;
+	z-index:10;
+}
+.darkBlue{
+	height:16px;
+	width:100%;
+	background-color:rgb(13,72,127);
+	z-index:10;
+}
+/* End of rules for CTPS "branding" */
+
+/* Begining of rules for the app itself. */
+#outermost_container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch; 
+	margin-top: 50px;
+}
+#inner_container {
+	display: flex;
+	justify-content: flex-start;
+	align-items: stretch;
+	order: 1;
+}
+#svg_container {
+	order: 1;
+	height: 100%; /* height: 726px; */
+	width:  800px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: steelblue;
+	margin-bottom: 10px;
+}
+#slider-vertical {
+	order: 2;
+	height: 100%;	/* height:720px; */
+	/* float: left; */
+	margin-bottom: 10px;
+	margin-left: 60px;
+	margin-right: 75px;
+}
+#output {
+	order: 2;
+	height: 726px;
+	width: 400px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: white;
+	float: left;
+	font-family: sans-serif;
+	/* margin-top: 10px; */
+	/* min-height: 40px; */
+	/* max-height: 80px; */
+	/* overflow-y: auto; */
+}
+.year_header {
+	color: black;
+	font-size: 24px;
+	font-weight: bold;
+	text-align: -webkit-center;
+}
+.opened_list_caption {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+.milestone_opened {
+	color: black;
+	font-size: 18px;
+	font-weight: bold;
+}
+.reopened_list_caption {
+	color: #009cdc;
+	font-size: 18px;
+	font-weight: bold;
+}
+.milestone_reopened {
+	color: #009cdc;
+	font-size: 18px;
+	font-weight: bold;
+}
+.closed_list_caption {
+	color: #ef3e42;
+	font-size: 18px;
+	font-weight: bold;
+}
+.milestone_closed {
+	color: #ef3e42;
+	font-size: 18px;
+	font-weight: bold;
+}
+.legislative_list_caption {
+	color: #009b67;
+	font-size: 18px;
+	font-weight: bold;
+}
+.milestone_legislative {
+	color: #009b67;
+	font-size: 18px;
+	font-weight: bold;
+}
+
+/* Rules for elements of the vertical slider.*/
+/* The slider "bar": */
+#slider-vertical .noUi-base .noUi-connects {
+	background-color: #fe9929;
+}
+
+
+/* End of rules for the app itself. */
