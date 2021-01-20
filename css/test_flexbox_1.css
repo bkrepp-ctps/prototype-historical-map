@@ -35,15 +35,10 @@
 /* Begining of rules for the app itself. */
 #outermost_container {
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: flex-start;
 	align-items: stretch; 
 	margin-top: 50px;
-}
-#inner_container {
-	display: flex;
-	justify-content: flex-start;
-	align-items: stretch;
-	order: 1;
 }
 #svg_container {
 	order: 1;
@@ -56,25 +51,20 @@
 }
 #slider-vertical {
 	order: 2;
-	height: 100%;	/* height:720px; */
-	/* float: left; */
+	height:720px; /* Appears to need a hard-wired height. */
 	margin-bottom: 10px;
 	margin-left: 60px;
 	margin-right: 75px;
 }
 #output {
-	order: 2;
-	height: 726px;
+	order: 3;
+	height: 100%; 	/* height: 726px; */
 	width: 400px;
 	border-style: solid;
 	border-width: 1px;
 	border-color: white;
-	float: left;
+	/* float: left; */
 	font-family: sans-serif;
-	/* margin-top: 10px; */
-	/* min-height: 40px; */
-	/* max-height: 80px; */
-	/* overflow-y: auto; */
 }
 .year_header {
 	color: black;
@@ -128,6 +118,5 @@
 #slider-vertical .noUi-base .noUi-connects {
 	background-color: #fe9929;
 }
-
 
 /* End of rules for the app itself. */
